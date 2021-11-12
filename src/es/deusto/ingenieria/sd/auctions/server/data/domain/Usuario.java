@@ -4,19 +4,19 @@ public class Usuario {
 	private String email;
 	private String nombre;
 	private String fecha;
-	private String contraseña;
+	private String contraseÃ±a;
 	private int peso;
 	private int altura;
 	private int max;
 	private int rep;
 	
-	public Usuario(String email, String nombre, String fecha, String contraseña, int peso, int altura, int max,
+	public Usuario(String email, String nombre, String fecha, String contraseÃ±a, int peso, int altura, int max,
 			int rep) {
 		super();
 		this.email = email;
 		this.nombre = nombre;
 		this.fecha = fecha;
-		this.contraseña = contraseña;
+		this.contraseÃ±a = contraseÃ±a;
 		this.peso = peso;
 		this.altura = altura;
 		this.max = max;
@@ -47,12 +47,12 @@ public class Usuario {
 		this.fecha = fecha;
 	}
 
-	public String getContraseña() {
-		return contraseña;
+	public String getContraseÃ±a() {
+		return contraseÃ±a;
 	}
 
-	public void setContraseña(String contraseña) {
-		this.contraseña = contraseña;
+	public void setContraseÃ±a(String contraseÃ±a) {
+		this.contraseÃ±a = contraseÃ±a;
 	}
 
 	public int getPeso() {
@@ -89,7 +89,7 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha + ", contraseña=" + contraseña
+		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha + ", contraseï¿½a=" + contraseÃ±a
 				+ ", peso=" + peso + ", altura=" + altura + ", max=" + max + ", rep=" + rep + "]";
 	}
 	
