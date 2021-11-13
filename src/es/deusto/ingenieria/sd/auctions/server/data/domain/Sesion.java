@@ -15,7 +15,17 @@ public class Sesion {
 		this.horaIni = horaIni;
 		Duracion = duracion;
 	}
+	
+	public Sesion() {
+		super();
+		this.titulo = "";
+		this.distancia = 0;
+		this.fechaIni = "";
+		this.horaIni = "";
+		Duracion = 0;
+	}
 
+	
 	public String getTitulo() {
 		return titulo;
 	}

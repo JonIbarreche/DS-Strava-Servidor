@@ -18,6 +18,16 @@ public class Reto {
 		this.tiempo = tiempo;
 		this.deporte = deporte;
 	}
+	
+	public Reto() {
+		super();
+		this.nombreReto = "";
+		this.fechaIni = "";
+		this.fechaFin = "";
+		this.distancia = 0;
+		this.tiempo = 0;
+		this.deporte = "";
+	}
 	//getset
 	public String getNombreReto() {
 		return nombreReto;

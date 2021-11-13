@@ -22,7 +22,22 @@ public class Usuario {
 		this.max = max;
 		this.rep = rep;
 	}
-
+	public Usuario() {
+		super();
+		this.email = "";
+		this.nombre = "";
+		this.fecha = "";
+		this.contraseña = "";
+		this.peso = 0;
+		this.altura = 0;
+		this.max = 0;
+		this.rep = 0;
+	}
+	
+	public boolean checkContraseña(String password) {
+		return this.contraseña.equals(password);
+	}
+	
 	public String getEmail() {
 		return email;
 	}
@@ -92,5 +107,13 @@ public class Usuario {
 		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha + ", contrase�a=" + contraseña
 				+ ", peso=" + peso + ", altura=" + altura + ", max=" + max + ", rep=" + rep + "]";
 	}
-	
+	@Override
+	public boolean equals(Object obj) {
+		if (this.getClass().getName().equals(obj.getClass().getName())) {
+			return this.email.equals(((User)obj).getEmail());
+		}
+		
+		return false;
+	}
 }
+
