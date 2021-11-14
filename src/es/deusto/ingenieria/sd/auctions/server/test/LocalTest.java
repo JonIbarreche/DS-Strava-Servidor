@@ -8,7 +8,10 @@ import es.deusto.ingenieria.sd.auctions.server.remote.RemoteFacade;
 
 public class LocalTest {
 
-	public static void main(String[] args) {		
+	public static void main(String[] args) {	
+		/**
+		 * 
+		
 		RemoteFacade facade = null;
 		List<CategoryDTO> categories = null;
 		CategoryDTO category = null;
@@ -67,4 +70,6 @@ public class LocalTest {
 		//Force exit to stop RMI Server
 		System.exit(0);
 	}
+	 */
+}
 }

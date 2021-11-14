@@ -4,19 +4,19 @@ public class Usuario {
 	private String email;
 	private String nombre;
 	private String fecha;
-	private String contraseña;
+	private String contrasena;
 	private int peso;
 	private int altura;
 	private int max;
 	private int rep;
 	
-	public Usuario(String email, String nombre, String fecha, String contraseña, int peso, int altura, int max,
+	public Usuario(String email, String nombre, String fecha, String contrasena, int peso, int altura, int max,
 			int rep) {
 		super();
 		this.email = email;
 		this.nombre = nombre;
 		this.fecha = fecha;
-		this.contraseña = contraseña;
+		this.contrasena = contrasena;
 		this.peso = peso;
 		this.altura = altura;
 		this.max = max;
@@ -27,15 +27,15 @@ public class Usuario {
 		this.email = "";
 		this.nombre = "";
 		this.fecha = "";
-		this.contraseña = "";
+		this.contrasena = "";
 		this.peso = 0;
 		this.altura = 0;
 		this.max = 0;
 		this.rep = 0;
 	}
 	
-	public boolean checkContraseña(String password) {
-		return this.contraseña.equals(password);
+	public boolean checkcontrasena(String password) {
+		return this.contrasena.equals(password);
 	}
 	
 	public String getEmail() {
@@ -62,12 +62,12 @@ public class Usuario {
 		this.fecha = fecha;
 	}
 
-	public String getContraseña() {
-		return contraseña;
+	public String getcontrasena() {
+		return contrasena;
 	}
 
-	public void setContraseña(String contraseña) {
-		this.contraseña = contraseña;
+	public void setcontrasena(String contrasena) {
+		this.contrasena = contrasena;
 	}
 
 	public int getPeso() {
@@ -104,13 +104,13 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha + ", contrase�a=" + contraseña
+		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha + ", contrase�a=" + contrasena
 				+ ", peso=" + peso + ", altura=" + altura + ", max=" + max + ", rep=" + rep + "]";
 	}
 	@Override
 	public boolean equals(Object obj) {
 		if (this.getClass().getName().equals(obj.getClass().getName())) {
-			return this.email.equals(((User)obj).getEmail());
+			return this.email.equals(((Usuario)obj).getEmail());
 		}
 		
 		return false;

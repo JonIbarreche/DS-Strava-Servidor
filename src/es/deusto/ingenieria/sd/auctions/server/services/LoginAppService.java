@@ -12,9 +12,9 @@ public class LoginAppService {
 		user.setNombre("Thomas");		
 		//Generate the hash of the password
 		String sha1 = org.apache.commons.codec.digest.DigestUtils.sha1Hex("$!9PhNz,");		
-		user.setContraseña(sha1);
+		user.setcontrasena(sha1);
 		
-		if (user.getEmail().equals(email) && user.checkContraseña(password)) {		
+		if (user.getEmail().equals(email) && user.checkcontrasena(password)) {		
 			return user;
 		} else {
 			return null;

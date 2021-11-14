@@ -22,7 +22,7 @@ public class RetoService {
 		Usuario u0 = new Usuario();
 		u0.setNombre("Thomas");
 		u0.setAltura(167);
-		u0.setContraseña("iwhioqq12");
+		u0.setcontrasena("iwhioqq12");
 		u0.setEmail("thomas.e2001@gmail.com");
 		u0.setFecha("8 de agosto");
 		u0.setMax(10);
@@ -32,7 +32,7 @@ public class RetoService {
 		Usuario u1 = new Usuario();
 		u1.setNombre("Jon");
 		u1.setAltura(189);
-		u1.setContraseña("wnfo2q");
+		u1.setcontrasena("wnfo2q");
 		u1.setEmail("jon.e2001@gmail.com");
 		u1.setFecha("19 de agosto");
 		u1.setMax(17);
@@ -62,7 +62,7 @@ public class RetoService {
 		
 	}
 	
-	public List<Reto> getRetos(){
+	public List<Reto> getRetos(List<Reto> retos){
 		return this.retos;
 	}
 	

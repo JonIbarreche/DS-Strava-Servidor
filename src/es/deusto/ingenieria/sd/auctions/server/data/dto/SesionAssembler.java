@@ -1,5 +1,7 @@
 package es.deusto.ingenieria.sd.auctions.server.data.dto;
 
+import java.util.List;
+
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
 
 //This class is part of the DTO pattern. It also implements Singleton Pattern.
@@ -15,14 +17,14 @@ public class SesionAssembler {
 		return instance;
 	}
 	
-	public SesionDTO sesionToDTO(Sesion sesion) {
+	public SesionDTO sesionToDTO() {
 		SesionDTO dto = new SesionDTO();
 		
-		dto.setTitulo(sesion.getTitulo());
-		dto.setDistancia(sesion.getDistancia());
-		dto.setFechaIni(sesion.getFechaIni());
-		dto.setHoraIni(sesion.getHoraIni());
-		dto.setDuracion(sesion.getDuracion());
+		dto.setTitulo(sesiones.getTitulo());
+		dto.setDistancia(sesiones.getDistancia());
+		dto.setFechaIni(sesiones.getFechaIni());
+		dto.setHoraIni(sesiones.getHoraIni());
+		dto.setDuracion(sesiones.getDuracion());
 		
 		return dto;
 	}
