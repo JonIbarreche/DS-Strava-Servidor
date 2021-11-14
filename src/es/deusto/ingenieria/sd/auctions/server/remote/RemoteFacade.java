@@ -9,16 +9,22 @@ import java.util.Map;
 
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Article;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Category;
+import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
+import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.User;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Usuario;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.ArticleAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.ArticleDTO;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.CategoryAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.CategoryDTO;
+import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoDTO;
+import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
 import es.deusto.ingenieria.sd.auctions.server.services.BidAppService;
 import es.deusto.ingenieria.sd.auctions.server.services.LoginAppService;
+import es.deusto.ingenieria.sd.auctions.server.services.RetoService;
+import es.deusto.ingenieria.sd.auctions.server.services.SesionService;
 
 public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {	
 	private static final long serialVersionUID = 1L;
@@ -29,6 +35,8 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	//TODO: Remove this instances when Singleton Pattern is implemented
 	private LoginAppService loginService = new LoginAppService();
 	private BidAppService bidService = new BidAppService();
+	private RetoService retoService = new RetoService();
+	private SesionService sesionService = new SesionService();
 
 	public RemoteFacade() throws RemoteException {
 		super();		
@@ -70,13 +78,33 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 
 	@Override
 	public List<SesionDTO> getSesiones() throws RemoteException {
-		// TODO Auto-generated method stub
+		System.out.println(" * RemoteFacade getSesiones()");
+		
+		//Get Sesiones using SesionService		
+		List<Sesion> sesiones = sesionService.getSesiones();
+		
+		if (sesiones != null) {
+			//Convert domain object to DTO
+			return SesionAssembler.getInstance().sesionToDTO(sesiones);
+		} else {
+			throw new RemoteException("getSesiones() fails!");
+		}
+		
 		return null;
 	}
-
 	@Override
 	public List<RetoDTO> getRetos() throws RemoteException {
-		// TODO Auto-generated method stub
+		System.out.println(" * RemoteFacade getRetos()");
+		//Get Retos using RetoService		
+		List<Reto> retos = retoService.getRetos();
+		
+		if (retos != null) {
+			//Convert domain object to DTO
+			return RetoAssembler.getInstance().retoToDTO(retos);
+		} else {
+			throw new RemoteException("getSesiones() fails!");
+		}
+		
 		return null;
 	}
 
@@ -88,15 +116,24 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 
 	@Override
-	public void crearSesion(String titulo, float distancia, String fechaIni, String horaIni, int duracion)
-			throws RemoteException {
+	public void crearSesion(String titulo, float distancia, String fechaIni, String horaIni, int duracion) throws RemoteException {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public List<RetoDTO> getRetosActivos() throws RemoteException {
-		// TODO Auto-generated method stub
+		System.out.println(" * RemoteFacade getRetosActivos()");
+		//Get Retos using RetoService		
+		List<Reto> retos = retoService.getRetos();
+		
+		if (retos != null) {
+			//Convert domain object to DTO
+			return RetoAssembler.getInstance().retoToDTO(retos);
+		} else {
+			throw new RemoteException("getSesiones() fails!");
+		}
+		
 		return null;
 	}
 
