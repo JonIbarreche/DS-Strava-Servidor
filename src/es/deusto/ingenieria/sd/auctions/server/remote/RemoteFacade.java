@@ -10,10 +10,13 @@ import java.util.Map;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Article;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Category;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.User;
+import es.deusto.ingenieria.sd.auctions.server.data.domain.Usuario;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.ArticleAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.ArticleDTO;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.CategoryAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.CategoryDTO;
+import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoDTO;
+import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
 import es.deusto.ingenieria.sd.auctions.server.services.BidAppService;
 import es.deusto.ingenieria.sd.auctions.server.services.LoginAppService;
 
@@ -21,7 +24,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	private static final long serialVersionUID = 1L;
 
 	//Data structure for manage Server State
-	private Map<Long, User> serverState = new HashMap<>();
+	private Map<Long, Usuario> serverState = new HashMap<>();
 	
 	//TODO: Remove this instances when Singleton Pattern is implemented
 	private LoginAppService loginService = new LoginAppService();
@@ -36,7 +39,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		System.out.println(" * RemoteFacade login(): " + email + " / " + password);
 				
 		//Perform login() using LoginAppService
-		User user = loginService.login(email, password);
+		Usuario user = loginService.login(email, password);
 			
 		//If login() success user is stored in the Server State
 		if (user != null) {
@@ -64,7 +67,50 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			throw new RemoteException("User is not logged in!");
 		}
 	}
+
+	@Override
+	public List<SesionDTO> getSesiones() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<RetoDTO> getRetos() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void crearReto(String nombreReto, String fechaIni, String fechaFin, float distancia, int tiempo,
+			String deporte) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void crearSesion(String titulo, float distancia, String fechaIni, String horaIni, int duracion)
+			throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<RetoDTO> getRetosActivos() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean aceptarReto(String nombreReto, float distancia) throws RemoteException {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
+	/**
+	 * 
+	 * @return
+	 * @throws RemoteException
+	 
 	@Override
 	public List<CategoryDTO> getCategories() throws RemoteException {
 		System.out.println(" * RemoteFacade getCategories()");
@@ -79,7 +125,14 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			throw new RemoteException("getCategories() fails!");
 		}
 	}
-
+	 */
+	
+	/**
+	 * 
+	 * @param category
+	 * @return
+	 * @throws RemoteException
+	
 	@Override
 	public List<ArticleDTO> getArticles(String category) throws RemoteException {
 		System.out.println(" * RemoteFacade getArticle('" + category + "')");
@@ -94,6 +147,15 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			throw new RemoteException("getArticles() fails!");
 		}
 	}
+	 */
+	
+	/**
+	 * 
+	 * @param token
+	 * @param article
+	 * @param amount
+	 * @return
+	 * @throws RemoteException
 	
 	@Override
 	public boolean makeBid(long token, int article, float amount) throws RemoteException {		
@@ -110,7 +172,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			throw new RemoteException("To place a bid you must first log in");
 		}
 	}
-
+	 */
+	
+	/**
+	 * 
+	 * @return
+	 * @throws RemoteException
+	 
 	@Override
 	public float getUSDRate() throws RemoteException {
 		System.out.println(" * RemoteFacade get USD rate");
@@ -124,7 +192,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			throw new RemoteException("getUSDRate() fails!");
 		}
 	}
-
+	 */
+	
+	/**
+	 * 
+	 * @return
+	 * @throws RemoteException
+	 
 	@Override
 	public float getGBPRate() throws RemoteException {
 		System.out.println(" * RemoteFacade get GBP rate");
@@ -138,4 +212,6 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			throw new RemoteException("getGBPRate() fails!");
 		}
 	}
+	*/
+	
 }
