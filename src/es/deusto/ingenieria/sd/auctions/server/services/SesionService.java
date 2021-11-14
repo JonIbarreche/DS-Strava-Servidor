@@ -5,7 +5,6 @@ import java.util.List;
 
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Usuario;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
 
 	public class SesionService {
@@ -87,7 +86,7 @@ import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
 			}
 		}
 		
-		public List<Sesion> getSesiones(List<Sesion> sesiones){
+		public List<Sesion> getSesiones(){
 			//TODO: Get all the categories using DAO Pattern		
 			return this.sesiones;
 		}

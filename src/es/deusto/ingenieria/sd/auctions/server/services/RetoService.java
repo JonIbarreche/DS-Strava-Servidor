@@ -62,7 +62,7 @@ public class RetoService {
 		
 	}
 	
-	public List<Reto> getRetos(List<Reto> retos){
+	public List<Reto> getRetos(){
 		return this.retos;
 	}
 	
