@@ -1,5 +1,7 @@
 package es.deusto.ingenieria.sd.strava.server.data.dto;
 
+import java.util.List;
+
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 
 //This class is part of the DTO pattern. It also implements Singleton Pattern.
@@ -15,15 +17,15 @@ public class RetoAssembler {
 		return instance;
 	}
 	
-	public RetoDTO retoToDTO(Reto reto) {
+	public RetoDTO retoToDTO(List<Reto> retos) {
 		RetoDTO dto = new RetoDTO();
 		
-		dto.setNombreReto(reto.getNombreReto());
-		dto.setFechaIni(reto.getFechaIni());
-		dto.setFechaFin(reto.getFechaFin());
-		dto.setDistancia(reto.getDistancia());
-		dto.setTiempo(reto.getTiempo());
-		dto.setDeporte(reto.getDeporte());
+		dto.setNombreReto(((Reto) retos).getNombreReto());
+		dto.setFechaIni(((Reto) retos).getFechaIni());
+		dto.setFechaFin(((Reto) retos).getFechaFin());
+		dto.setDistancia(((Reto) retos).getDistancia());
+		dto.setTiempo(((Reto) retos).getTiempo());
+		dto.setDeporte(((Reto) retos).getDeporte());
 		
 		return dto;
 	}

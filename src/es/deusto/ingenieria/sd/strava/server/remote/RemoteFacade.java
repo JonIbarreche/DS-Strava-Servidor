@@ -74,14 +74,15 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		//Get Sesiones using SesionService		
 		List<Sesion> sesiones = sesionService.getSesiones();
 		
-		if (sesiones != null) {
-			//Convert domain object to DTO
-			return SesionAssembler.getInstance().sesionToDTO(sesiones);
-		} else {
-			throw new RemoteException("getSesiones() fails!");
-		}
 		
-		return null;
+			if (sesiones != null) {
+				//Convert domain object to DTO
+				return (List<SesionDTO>) SesionAssembler.getInstance().sesionToDTO(sesiones);
+			} else {
+				throw new RemoteException("getSesiones() fails!");
+			}
+			
+			//return null;
 	}
 	@Override
 	public List<RetoDTO> getRetos() throws RemoteException {
@@ -91,12 +92,11 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 		if (retos != null) {
 			//Convert domain object to DTO
-			return RetoAssembler.getInstance().retoToDTO(retos);
+			return (List<RetoDTO>) RetoAssembler.getInstance().retoToDTO(retos);
 		} else {
 			throw new RemoteException("getSesiones() fails!");
 		}
-		
-		return null;
+		//return null;
 	}
 
 	@Override
@@ -114,18 +114,17 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 
 	@Override
 	public List<RetoDTO> getRetosActivos() throws RemoteException {
-		System.out.println(" * RemoteFacade getRetosActivos()");
+		System.out.println(" * RemoteFacade getRetos()");
 		//Get Retos using RetoService		
 		List<Reto> retos = retoService.getRetos();
 		
 		if (retos != null) {
 			//Convert domain object to DTO
-			return RetoAssembler.getInstance().retoToDTO(retos);
+			return (List<RetoDTO>) RetoAssembler.getInstance().retoToDTO(retos);
 		} else {
 			throw new RemoteException("getSesiones() fails!");
 		}
-		
-		return null;
+		//return null;
 	}
 
 	@Override

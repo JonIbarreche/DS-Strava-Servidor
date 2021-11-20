@@ -17,14 +17,14 @@ public class SesionAssembler {
 		return instance;
 	}
 	
-	public SesionDTO sesionToDTO(Sesion sesiones) {
+	public SesionDTO sesionToDTO(List<Sesion> sesiones) {
 		SesionDTO dto = new SesionDTO();
 		
-		dto.setTitulo(sesiones.getTitulo());
-		dto.setDistancia(sesiones.getDistancia());
-		dto.setFechaIni(sesiones.getFechaIni());
-		dto.setHoraIni(sesiones.getHoraIni());
-		dto.setDuracion(sesiones.getDuracion());
+		dto.setTitulo(((Sesion) sesiones).getTitulo());
+		dto.setDistancia(((Sesion) sesiones).getDistancia());
+		dto.setFechaIni(((Sesion) sesiones).getFechaIni());
+		dto.setHoraIni(((Sesion) sesiones).getHoraIni());
+		dto.setDuracion(((Sesion) sesiones).getDuracion());
 		
 		return dto;
 	}
