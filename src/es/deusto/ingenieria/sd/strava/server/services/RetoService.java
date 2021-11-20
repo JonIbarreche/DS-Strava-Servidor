@@ -1,10 +1,11 @@
-package es.deusto.ingenieria.sd.auctions.server.services;
+package es.deusto.ingenieria.sd.strava.server.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Usuario;
+import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 
 //TODO: Implement Singleton Pattern
 public class RetoService {
@@ -19,6 +20,9 @@ public class RetoService {
 	//TODO: remove when DAO Pattern is implemented
 	private void initilizeData() {
 		//Create Users
+		/**
+		 * 
+		 
 		Usuario u0 = new Usuario();
 		u0.setNombre("Thomas");
 		u0.setAltura(167);
@@ -38,6 +42,27 @@ public class RetoService {
 		u1.setMax(17);
 		u1.setPeso(65);
 		u1.setRep(13);
+		*/
+		//Create Users
+		PasswordUsuario pU0 = new PasswordUsuario();
+		pU0.setNombre("Thomas");
+		pU0.setAltura(167);
+		pU0.setContrasena("iwhioqq12");
+		pU0.setEmail("thomas.e2001@gmail.com");
+		pU0.setFecha("8 de agosto");
+		pU0.setMax(10);
+		pU0.setPeso(80);
+		pU0.setRep(10);
+		
+		PasswordUsuario pU1 = new PasswordUsuario();
+		pU1.setNombre("Jon");
+		pU1.setAltura(189);
+		pU1.setContrasena("wnfo2q");
+		pU1.setEmail("jon.e2001@gmail.com");
+		pU1.setFecha("19 de agosto");
+		pU1.setMax(17);
+		pU1.setPeso(65);
+		pU1.setRep(13);
 		
 		//Crear Retos
 		Reto r0 = new Reto();

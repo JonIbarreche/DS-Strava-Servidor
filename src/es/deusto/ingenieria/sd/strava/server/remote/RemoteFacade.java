@@ -1,4 +1,4 @@
-package es.deusto.ingenieria.sd.auctions.server.remote;
+package es.deusto.ingenieria.sd.strava.server.remote;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -7,16 +7,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Usuario;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoAssembler;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoDTO;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionAssembler;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
-import es.deusto.ingenieria.sd.auctions.server.services.LoginAppService;
-import es.deusto.ingenieria.sd.auctions.server.services.RetoService;
-import es.deusto.ingenieria.sd.auctions.server.services.SesionService;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
+import es.deusto.ingenieria.sd.strava.server.data.dto.RetoAssembler;
+import es.deusto.ingenieria.sd.strava.server.data.dto.RetoDTO;
+import es.deusto.ingenieria.sd.strava.server.data.dto.SesionAssembler;
+import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
+import es.deusto.ingenieria.sd.strava.server.services.LoginAppService;
+import es.deusto.ingenieria.sd.strava.server.services.RetoService;
+import es.deusto.ingenieria.sd.strava.server.services.SesionService;
 
 public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {	
 	private static final long serialVersionUID = 1L;

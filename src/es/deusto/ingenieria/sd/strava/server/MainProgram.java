@@ -1,9 +1,9 @@
-package es.deusto.ingenieria.sd.auctions.server;
+package es.deusto.ingenieria.sd.strava.server;
 
 import java.rmi.Naming;
 
-import es.deusto.ingenieria.sd.auctions.server.remote.IRemoteFacade;
-import es.deusto.ingenieria.sd.auctions.server.remote.RemoteFacade;
+import es.deusto.ingenieria.sd.strava.server.remote.IRemoteFacade;
+import es.deusto.ingenieria.sd.strava.server.remote.RemoteFacade;
 
 public class MainProgram {
 

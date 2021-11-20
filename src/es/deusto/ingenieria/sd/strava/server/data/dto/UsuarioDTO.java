@@ -1,4 +1,4 @@
-package es.deusto.ingenieria.sd.auctions.server.data.dto;
+package es.deusto.ingenieria.sd.strava.server.data.dto;
 
 import java.io.Serializable;
 

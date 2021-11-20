@@ -1,22 +1,20 @@
-package es.deusto.ingenieria.sd.auctions.server.data.domain;
+package es.deusto.ingenieria.sd.strava.server.data.domain;
 
 public class Usuario {
 	private String email;
 	private String nombre;
 	private String fecha;
-	private String contrasena;
 	private int peso;
 	private int altura;
 	private int max;
 	private int rep;
 	
-	public Usuario(String email, String nombre, String fecha, String contrasena, int peso, int altura, int max,
+	public Usuario(String email, String nombre, String fecha, int peso, int altura, int max,
 			int rep) {
 		super();
 		this.email = email;
 		this.nombre = nombre;
 		this.fecha = fecha;
-		this.contrasena = contrasena;
 		this.peso = peso;
 		this.altura = altura;
 		this.max = max;
@@ -27,16 +25,13 @@ public class Usuario {
 		this.email = "";
 		this.nombre = "";
 		this.fecha = "";
-		this.contrasena = "";
 		this.peso = 0;
 		this.altura = 0;
 		this.max = 0;
 		this.rep = 0;
 	}
 	
-	public boolean checkcontrasena(String password) {
-		return this.contrasena.equals(password);
-	}
+	
 	
 	public String getEmail() {
 		return email;
@@ -62,13 +57,7 @@ public class Usuario {
 		this.fecha = fecha;
 	}
 
-	public String getcontrasena() {
-		return contrasena;
-	}
-
-	public void setcontrasena(String contrasena) {
-		this.contrasena = contrasena;
-	}
+	
 
 	public int getPeso() {
 		return peso;
@@ -104,7 +93,7 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha + ", contrase�a=" + contrasena
+		return "Usuario [email=" + email + ", nombre=" + nombre + ", fecha=" + fecha 
 				+ ", peso=" + peso + ", altura=" + altura + ", max=" + max + ", rep=" + rep + "]";
 	}
 	@Override

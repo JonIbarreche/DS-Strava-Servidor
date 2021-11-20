@@ -1,4 +1,4 @@
-package es.deusto.ingenieria.sd.auctions.server.data.domain;
+package es.deusto.ingenieria.sd.strava.server.data.domain;
 
 public class Sesion {
 	private String titulo;

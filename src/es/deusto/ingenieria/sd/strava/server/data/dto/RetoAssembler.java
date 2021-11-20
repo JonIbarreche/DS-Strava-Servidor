@@ -1,6 +1,6 @@
-package es.deusto.ingenieria.sd.auctions.server.data.dto;
+package es.deusto.ingenieria.sd.strava.server.data.dto;
 
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 
 //This class is part of the DTO pattern. It also implements Singleton Pattern.
 public class RetoAssembler {

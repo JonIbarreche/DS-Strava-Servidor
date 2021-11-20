@@ -1,8 +1,8 @@
-package es.deusto.ingenieria.sd.auctions.server.data.dto;
+package es.deusto.ingenieria.sd.strava.server.data.dto;
 
 import java.util.List;
 
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 
 //This class is part of the DTO pattern. It also implements Singleton Pattern.
 public class SesionAssembler {

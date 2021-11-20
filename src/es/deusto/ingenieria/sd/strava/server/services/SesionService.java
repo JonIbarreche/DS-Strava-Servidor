@@ -1,11 +1,11 @@
-package es.deusto.ingenieria.sd.auctions.server.services;
+package es.deusto.ingenieria.sd.strava.server.services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
+import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
 
 	public class SesionService {
 		
