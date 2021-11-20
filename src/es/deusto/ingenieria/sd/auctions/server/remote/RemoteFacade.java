@@ -7,21 +7,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Article;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.Category;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Sesion;
-import es.deusto.ingenieria.sd.auctions.server.data.domain.User;
 import es.deusto.ingenieria.sd.auctions.server.data.domain.Usuario;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.ArticleAssembler;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.ArticleDTO;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.CategoryAssembler;
-import es.deusto.ingenieria.sd.auctions.server.data.dto.CategoryDTO;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.RetoDTO;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionAssembler;
 import es.deusto.ingenieria.sd.auctions.server.data.dto.SesionDTO;
-import es.deusto.ingenieria.sd.auctions.server.services.BidAppService;
 import es.deusto.ingenieria.sd.auctions.server.services.LoginAppService;
 import es.deusto.ingenieria.sd.auctions.server.services.RetoService;
 import es.deusto.ingenieria.sd.auctions.server.services.SesionService;
@@ -34,7 +26,6 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	
 	//TODO: Remove this instances when Singleton Pattern is implemented
 	private LoginAppService loginService = new LoginAppService();
-	private BidAppService bidService = new BidAppService();
 	private RetoService retoService = new RetoService();
 	private SesionService sesionService = new SesionService();
 

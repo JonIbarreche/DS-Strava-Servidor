@@ -17,7 +17,7 @@ public class SesionAssembler {
 		return instance;
 	}
 	
-	public SesionDTO sesionToDTO() {
+	public SesionDTO sesionToDTO(Sesion sesiones) {
 		SesionDTO dto = new SesionDTO();
 		
 		dto.setTitulo(sesiones.getTitulo());
