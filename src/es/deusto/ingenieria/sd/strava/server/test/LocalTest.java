@@ -2,8 +2,7 @@ package es.deusto.ingenieria.sd.strava.server.test;
 
 import java.util.List;
 
-import es.deusto.ingenieria.sd.strava.server.data.dto.ArticleDTO;
-import es.deusto.ingenieria.sd.strava.server.data.dto.CategoryDTO;
+
 import es.deusto.ingenieria.sd.strava.server.remote.RemoteFacade;
 
 public class LocalTest {

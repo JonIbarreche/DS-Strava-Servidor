@@ -20,13 +20,11 @@ public class RetoService {
 	//TODO: remove when DAO Pattern is implemented
 	private void initilizeData() {
 		//Create Users
-		/**
-		 * 
+		
 		 
 		Usuario u0 = new Usuario();
 		u0.setNombre("Thomas");
 		u0.setAltura(167);
-		u0.setcontrasena("iwhioqq12");
 		u0.setEmail("thomas.e2001@gmail.com");
 		u0.setFecha("8 de agosto");
 		u0.setMax(10);
@@ -36,13 +34,12 @@ public class RetoService {
 		Usuario u1 = new Usuario();
 		u1.setNombre("Jon");
 		u1.setAltura(189);
-		u1.setcontrasena("wnfo2q");
 		u1.setEmail("jon.e2001@gmail.com");
 		u1.setFecha("19 de agosto");
 		u1.setMax(17);
 		u1.setPeso(65);
 		u1.setRep(13);
-		*/
+		
 		//Create Users
 		PasswordUsuario pU0 = new PasswordUsuario();
 		pU0.setNombre("Thomas");

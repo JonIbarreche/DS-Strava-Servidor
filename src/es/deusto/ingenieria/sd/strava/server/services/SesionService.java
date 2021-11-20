@@ -3,8 +3,10 @@ package es.deusto.ingenieria.sd.strava.server.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
 
 	public class SesionService {
@@ -23,7 +25,6 @@ import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
 			Usuario u0 = new Usuario();
 			u0.setNombre("Thomas");
 			u0.setAltura(167);
-			u0.setcontrasena("iwhioqq12");
 			u0.setEmail("thomas.e2001@gmail.com");
 			u0.setFecha("8 de agosto");
 			u0.setMax(10);
@@ -33,12 +34,32 @@ import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
 			Usuario u1 = new Usuario();
 			u1.setNombre("Jon");
 			u1.setAltura(189);
-			u1.setcontrasena("wnfo2q");
 			u1.setEmail("jon.e2001@gmail.com");
 			u1.setFecha("19 de agosto");
 			u1.setMax(17);
 			u1.setPeso(65);
 			u1.setRep(13);
+			
+			//Create Users
+			PasswordUsuario pU0 = new PasswordUsuario();
+			pU0.setNombre("Thomas");
+			pU0.setAltura(167);
+			pU0.setContrasena("iwhioqq12");
+			pU0.setEmail("thomas.e2001@gmail.com");
+			pU0.setFecha("8 de agosto");
+			pU0.setMax(10);
+			pU0.setPeso(80);
+			pU0.setRep(10);
+			
+			PasswordUsuario pU1 = new PasswordUsuario();
+			pU1.setNombre("Jon");
+			pU1.setAltura(189);
+			pU1.setContrasena("wnfo2q");
+			pU1.setEmail("jon.e2001@gmail.com");
+			pU1.setFecha("19 de agosto");
+			pU1.setMax(17);
+			pU1.setPeso(65);
+			pU1.setRep(13);
 			
 			//Crear Sesiones
 			Sesion s0 = new Sesion();
