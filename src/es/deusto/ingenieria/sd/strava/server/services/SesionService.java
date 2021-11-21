@@ -112,4 +112,7 @@ import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
 			return this.sesiones;
 		}
 		
+		public void addSesion(Sesion s) {
+			this.sesiones.add(s);
+		}
 }

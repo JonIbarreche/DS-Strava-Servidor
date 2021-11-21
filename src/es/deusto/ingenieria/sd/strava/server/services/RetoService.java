@@ -115,5 +115,9 @@ public class RetoService {
 		}
 	}
 	
+	public void addReto(Reto r) {
+		this.retos.add(r);
+	}
+	
 	
 }

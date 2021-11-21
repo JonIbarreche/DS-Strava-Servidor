@@ -1,5 +1,6 @@
 package es.deusto.ingenieria.sd.strava.server.data.dto;
 
+import java.util.Iterator;
 import java.util.List;
 
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
@@ -17,15 +18,30 @@ public class SesionAssembler {
 		return instance;
 	}
 	
-	public SesionDTO sesionToDTO(List<Sesion> sesiones) {
+	public SesionDTO sesionToDTO(Sesion sesion) {
 		SesionDTO dto = new SesionDTO();
 		
-		dto.setTitulo(((Sesion) sesiones).getTitulo());
-		dto.setDistancia(((Sesion) sesiones).getDistancia());
-		dto.setFechaIni(((Sesion) sesiones).getFechaIni());
-		dto.setHoraIni(((Sesion) sesiones).getHoraIni());
-		dto.setDuracion(((Sesion) sesiones).getDuracion());
+		dto.setTitulo(sesion.getTitulo());
+		dto.setDistancia(sesion.getDistancia());
+		dto.setFechaIni(sesion.getFechaIni());
+		dto.setHoraIni(sesion.getHoraIni());
+		dto.setDuracion(sesion.getDuracion());
 		
 		return dto;
+	}
+	
+	public List<SesionDTO> sesionesToDTO(List<Sesion> sesiones) {
+		List<SesionDTO> dtoLista = null;
+		
+		for (int i = 0; i < dtoLista.size(); i++) {
+			SesionDTO dto = new SesionDTO();
+			dto.setTitulo(sesiones.get(i).getTitulo());
+			dto.setDistancia(sesiones.get(i).getDistancia());
+			dto.setFechaIni(sesiones.get(i).getFechaIni());
+			dto.setHoraIni(sesiones.get(i).getHoraIni());
+			dto.setDuracion(sesiones.get(i).getDuracion());
+			dtoLista.add(dto);
+		}
+		return dtoLista;
 	}
 }

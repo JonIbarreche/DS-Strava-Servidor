@@ -10,10 +10,13 @@ import java.util.Map;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
+import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoAssembler;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoDTO;
 import es.deusto.ingenieria.sd.strava.server.data.dto.SesionAssembler;
 import es.deusto.ingenieria.sd.strava.server.data.dto.SesionDTO;
+import es.deusto.ingenieria.sd.strava.server.data.dto.UsuarioAssembler;
+import es.deusto.ingenieria.sd.strava.server.data.dto.UsuarioDTO;
 import es.deusto.ingenieria.sd.strava.server.services.LoginAppService;
 import es.deusto.ingenieria.sd.strava.server.services.RetoService;
 import es.deusto.ingenieria.sd.strava.server.services.SesionService;
@@ -77,7 +80,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 			if (sesiones != null) {
 				//Convert domain object to DTO
-				return (List<SesionDTO>) SesionAssembler.getInstance().sesionToDTO(sesiones);
+				return SesionAssembler.getInstance().sesionesToDTO(sesiones);
 			} else {
 				throw new RemoteException("getSesiones() fails!");
 			}
@@ -92,7 +95,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 		if (retos != null) {
 			//Convert domain object to DTO
-			return (List<RetoDTO>) RetoAssembler.getInstance().retoToDTO(retos);
+			return RetoAssembler.getInstance().retosToDTO(retos);
 		} else {
 			throw new RemoteException("getSesiones() fails!");
 		}
@@ -100,15 +103,28 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 
 	@Override
-	public void crearReto(String nombreReto, String fechaIni, String fechaFin, float distancia, int tiempo,
+	public RetoDTO crearReto(String nombreReto, String fechaIni, String fechaFin, float distancia, int tiempo,
 			String deporte) throws RemoteException {
-		// TODO Auto-generated method stub
+			Reto retoNorm = new Reto(nombreReto, fechaIni, fechaFin, distancia, tiempo, deporte);
+			retoService.addReto(retoNorm);
+			return RetoAssembler.getInstance().retoToDTO(retoNorm);
 		
 	}
-
+	
 	@Override
-	public void crearSesion(String titulo, float distancia, String fechaIni, String horaIni, int duracion) throws RemoteException {
-		// TODO Auto-generated method stub
+	public UsuarioDTO crearUsuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep,
+			String contrasena) {
+		PasswordUsuario userNorm = new PasswordUsuario(email, nombre, fecha, peso, altura, max, rep, contrasena);
+		loginService.addUsuario(userNorm);
+		return UsuarioAssembler.getInstance().userToDTO(userNorm);
+		
+	}
+	
+	@Override
+	public SesionDTO crearSesion(String titulo, float distancia, String fechaIni, String horaIni, int duracion) throws RemoteException {
+		Sesion sesionNorm = new Sesion(titulo, distancia, fechaIni, horaIni, duracion);
+		sesionService.addSesion(sesionNorm);
+		return SesionAssembler.getInstance().sesionToDTO(sesionNorm);
 		
 	}
 
@@ -120,7 +136,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 		if (retos != null) {
 			//Convert domain object to DTO
-			return (List<RetoDTO>) RetoAssembler.getInstance().retoToDTO(retos);
+			return (List<RetoDTO>) RetoAssembler.getInstance().retosToDTO(retos);
 		} else {
 			throw new RemoteException("getSesiones() fails!");
 		}
