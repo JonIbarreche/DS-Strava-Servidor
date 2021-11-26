@@ -1,6 +1,6 @@
 package es.deusto.ingenieria.sd.strava.server.data.dto;
 
-import java.util.Iterator;
+import java.util.ArrayList;
 import java.util.List;
 
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
@@ -31,7 +31,7 @@ public class SesionAssembler {
 	}
 	
 	public List<SesionDTO> sesionesToDTO(List<Sesion> sesiones) {
-		List<SesionDTO> dtoLista = null;
+		List<SesionDTO> dtoLista = new ArrayList<>();
 		
 		for (int i = 0; i < dtoLista.size(); i++) {
 			SesionDTO dto = new SesionDTO();

@@ -1,5 +1,6 @@
 package es.deusto.ingenieria.sd.strava.server.data.dto;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
@@ -32,7 +33,7 @@ public class RetoAssembler {
 	}
 	
 	public List<RetoDTO> retosToDTO(List<Reto> retos) {
-		List<RetoDTO> dtoLista = null;
+		List<RetoDTO> dtoLista = new ArrayList<>();
 		
 		for (int i = 0; i < dtoLista.size(); i++) {
 			RetoDTO dto = new RetoDTO();
