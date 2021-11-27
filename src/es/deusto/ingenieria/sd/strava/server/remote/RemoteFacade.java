@@ -2,6 +2,7 @@ package es.deusto.ingenieria.sd.strava.server.remote;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
@@ -80,7 +81,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 			if (sesiones != null) {
 				//Convert domain object to DTO
-				return SesionAssembler.getInstance().sesionesToDTO(sesiones);
+				List<SesionDTO> sesiondtolista =  new ArrayList<>();
+				SesionDTO meter;
+				for (int i = 0; i < sesiones.size(); i++) {
+					meter = SesionAssembler.getInstance().sesionToDTO(sesiones.get(i));
+					sesiondtolista.add(meter);
+				}
+				return sesiondtolista;
 			} else {
 				throw new RemoteException("getSesiones() fails!");
 			}
@@ -95,9 +102,15 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 		if (retos != null) {
 			//Convert domain object to DTO
-			return RetoAssembler.getInstance().retosToDTO(retos);
+			List<RetoDTO> retodtolista =  new ArrayList<>();
+			RetoDTO meter;
+			for (int i = 0; i < retos.size(); i++) {
+				meter = RetoAssembler.getInstance().retoToDTO(retos.get(i));
+				retodtolista.add(meter);
+			}
+			return retodtolista;
 		} else {
-			throw new RemoteException("getSesiones() fails!");
+			throw new RemoteException("getRetos() fails!");
 		}
 		//return null;
 	}
@@ -136,7 +149,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 		if (retos != null) {
 			//Convert domain object to DTO
-			return (List<RetoDTO>) RetoAssembler.getInstance().retosToDTO(retos);
+			List<RetoDTO> retodtolista =  new ArrayList<>();
+			RetoDTO meter;
+			for (int i = 0; i < retos.size(); i++) {
+				meter = RetoAssembler.getInstance().retoToDTO(retos.get(i));
+				retodtolista.add(meter);
+			}
+			return retodtolista;
 		} else {
 			throw new RemoteException("getSesiones() fails!");
 		}

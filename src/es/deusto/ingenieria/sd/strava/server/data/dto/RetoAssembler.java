@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
-import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 
 //This class is part of the DTO pattern. It also implements Singleton Pattern.
 public class RetoAssembler {
@@ -30,21 +29,5 @@ public class RetoAssembler {
 		dto.setDeporte(reto.getDeporte());
 		
 		return dto;
-	}
-	
-	public List<RetoDTO> retosToDTO(List<Reto> retos) {
-		List<RetoDTO> dtoLista = new ArrayList<>();
-		
-		for (int i = 0; i < dtoLista.size(); i++) {
-			RetoDTO dto = new RetoDTO();
-			dto.setNombreReto(retos.get(i).getNombreReto());
-			dto.setDistancia(retos.get(i).getDistancia());
-			dto.setFechaIni(retos.get(i).getFechaIni());
-			dto.setFechaFin(retos.get(i).getFechaFin());
-			dto.setTiempo(retos.get(i).getTiempo());
-			dto.setDeporte(retos.get(i).getDeporte());
-			dtoLista.add(dto);
-		}
-		return dtoLista;
 	}
 }

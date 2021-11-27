@@ -30,18 +30,4 @@ public class SesionAssembler {
 		return dto;
 	}
 	
-	public List<SesionDTO> sesionesToDTO(List<Sesion> sesiones) {
-		List<SesionDTO> dtoLista = new ArrayList<>();
-		
-		for (int i = 0; i < dtoLista.size(); i++) {
-			SesionDTO dto = new SesionDTO();
-			dto.setTitulo(sesiones.get(i).getTitulo());
-			dto.setDistancia(sesiones.get(i).getDistancia());
-			dto.setFechaIni(sesiones.get(i).getFechaIni());
-			dto.setHoraIni(sesiones.get(i).getHoraIni());
-			dto.setDuracion(sesiones.get(i).getDuracion());
-			dtoLista.add(dto);
-		}
-		return dtoLista;
-	}
 }
