@@ -13,6 +13,8 @@ public interface IRemoteFacade extends Remote {
 	
 	public long login(String email, String password) throws RemoteException;
 	
+	public long loginFB(String email, String password) throws RemoteException;
+	
 	public void logout(long token) throws RemoteException; 
 	
 	public List<SesionDTO> getSesiones() throws RemoteException;

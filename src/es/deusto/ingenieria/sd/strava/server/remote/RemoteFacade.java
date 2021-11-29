@@ -1,5 +1,9 @@
 package es.deusto.ingenieria.sd.strava.server.remote;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
@@ -57,6 +61,30 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		} else {
 			throw new RemoteException("Login fails!");
 		}
+	}
+	
+	@Override
+	public long loginFB(String email, String password) throws RemoteException{
+		password.replace("#", "?");
+		String data = email + "#" + password;
+		final String host = "localhost";
+        final int portNumber = 420;
+        try {
+            Socket socket = new Socket(host, portNumber);
+            DataInputStream in = new DataInputStream(socket.getInputStream());
+            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+
+            out.writeUTF(data);
+            boolean valid = in.readUTF().equals("true"); //if server says true, then it is valid
+            Long token = Calendar.getInstance().getTimeInMillis();		
+			this.serverState.put(token, user);		
+			return(token);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        
+		return 0;
+		
 	}
 	
 	@Override
