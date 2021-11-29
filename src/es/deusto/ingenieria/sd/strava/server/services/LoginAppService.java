@@ -9,7 +9,7 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 //TODO: Implement Singleton Pattern
 public class LoginAppService {
 	
-	List<Usuario> lista = new ArrayList<Usuario>();
+	List<PasswordUsuario> lista = new ArrayList<>();
 	
 	public LoginAppService() {
 		this.InitializeData();
@@ -26,27 +26,28 @@ public class LoginAppService {
 		pU0.setPeso(80);
 		pU0.setRep(10);
 		
+		PasswordUsuario pU1 = new PasswordUsuario();
+		pU0.setNombre("Eva");
+		pU0.setAltura(184);
+		pU0.setContrasena("abc123");
+		pU0.setEmail("eva@gmail.com");
+		pU0.setFecha("1 de agosto");
+		pU0.setMax(10);
+		pU0.setPeso(80);
+		pU0.setRep(10);
+		
 		lista.add(pU0);
+		lista.add(pU1);
 	}
 	public Usuario login(String email, String password) {
 		//TODO: Get User using DAO and check 		
-		Usuario user = new Usuario();		
-		user.setEmail("thomas.e2001@gmail.com");
-		user.setNombre("Thomas");	
-		PasswordUsuario puser = new PasswordUsuario();
-		puser.setEmail("thomas.e2001@gmail.com");
-		puser.setNombre("Thomas");
-		//Generate the hash of the password
-		String sha1 = org.apache.commons.codec.digest.DigestUtils.sha1Hex("$!9PhNz,");		
-		//user.setcontrasena(sha1);
-		puser.setContrasena(sha1);
 	
-		
-		if (puser.getEmail().equals(email) && puser.checkcontrasena(password)) {		
-			return puser;
-		} else {
-			return null;
+		for (int i = 0; i < this.lista.size(); i++) {
+			if (this.lista.get(i).getEmail().equals(email) && this.lista.get(i).checkcontrasena(password)) {		
+				return this.lista.get(i);
+			}
 		}
+		return null;
 	}
 	
 	public void addUsuario(PasswordUsuario u) {
