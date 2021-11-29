@@ -3,6 +3,7 @@ package es.deusto.ingenieria.sd.strava.server.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import es.deusto.ingenieria.sd.strava.external.LoginFactory;
 import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 
@@ -39,7 +40,7 @@ public class LoginAppService {
 		lista.add(pU0);
 		lista.add(pU1);
 	}
-	public Usuario login(String email, String password) {
+	public Usuario getUsuario(String email, String password) {
 		//TODO: Get User using DAO and check 		
 	
 		for (int i = 0; i < this.lista.size(); i++) {
@@ -48,6 +49,19 @@ public class LoginAppService {
 			}
 		}
 		return null;
+	}
+	
+	public boolean login(String email, String password, String plataforma) {
+		for (int i = 0; i < this.lista.size(); i++) {
+			if (plataforma == "Mail" && this.lista.get(i).getEmail().equals(email) 
+					&& this.lista.get(i).checkcontrasena(password)) {		
+				return true;
+			} else if (plataforma == "Google" || plataforma == "Facebook") {
+				LoginFactory lf = new LoginFactory();
+				lf.login(plataforma, email);
+			}
+		}
+		return false;
 	}
 	
 	public void addUsuario(PasswordUsuario u) {

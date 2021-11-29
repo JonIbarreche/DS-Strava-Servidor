@@ -42,14 +42,14 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 	
 	@Override
-	public synchronized long login(String email, String password) throws RemoteException {
+	public synchronized long login(String email, String password, String plataforma) throws RemoteException {
 		System.out.println(" * RemoteFacade login(): " + email + " / " + password);
 				
 		//Perform login() using LoginAppService
-		Usuario user = loginService.login(email, password);
-			
+		Usuario user = loginService.getUsuario(email, password);
+		boolean existe = loginService.login(email, password, plataforma);	
 		//If login() success user is stored in the Server State
-		if (user != null) {
+		if (user != null && existe == true) {
 			//If user is not logged in 
 			if (!this.serverState.values().contains(user)) {
 				Long token = Calendar.getInstance().getTimeInMillis();		
@@ -61,30 +61,6 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		} else {
 			throw new RemoteException("Login fails!");
 		}
-	}
-	
-	@Override
-	public long loginFB(String email, String password) throws RemoteException{
-		password.replace("#", "?");
-		String data = email + "#" + password;
-		final String host = "localhost";
-        final int portNumber = 420;
-        try {
-            Socket socket = new Socket(host, portNumber);
-            DataInputStream in = new DataInputStream(socket.getInputStream());
-            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-
-            out.writeUTF(data);
-            boolean valid = in.readUTF().equals("true"); //if server says true, then it is valid
-            Long token = Calendar.getInstance().getTimeInMillis();		
-			this.serverState.put(token, user);		
-			return(token);
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-        
-		return 0;
-		
 	}
 	
 	@Override
