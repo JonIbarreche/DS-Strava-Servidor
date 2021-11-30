@@ -2,6 +2,7 @@ package es.deusto.ingenieria.sd.strava.server;
 
 import java.rmi.Naming;
 
+import es.deusto.ingenieria.sd.strava.external.ExternalLogin;
 import es.deusto.ingenieria.sd.strava.server.remote.IRemoteFacade;
 import es.deusto.ingenieria.sd.strava.server.remote.RemoteFacade;
 
@@ -12,12 +13,11 @@ public class MainProgram {
 		if (System.getSecurityManager() == null) {
 			System.setSecurityManager(new SecurityManager());
 		}
-
+		System.out.println(args[0] + "   " + args[1] + args[2]);
 		//args[0] = RMIRegistry IP
 		//args[1] = RMIRegistry Port
 		//args[2] = Service Name
 		String name = "//" + args[0] + ":" + args[1] + "/" + args[2];		
-		
 		//Bind remote facade instance to a sirvice name using RMIRegistry
 		try {
 			IRemoteFacade remoteFacade = new RemoteFacade();			

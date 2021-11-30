@@ -7,7 +7,7 @@ public class LoginFactory {
 		System.out.println("estoy en el factry");
 		switch(plataforma) {
 			case "Facebook":
-				FacebookLogin fb = new FacebookLogin();
+				ExternalLogin fb = new ExternalLogin("127.0.0.1", 1099);
 				try {
 					System.out.println("estoy aquí");
 					return fb.facebookLogin(email);
