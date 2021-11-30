@@ -42,9 +42,10 @@ public class LoginAppService {
 	}
 	public Usuario getUsuario(String email, String password) {
 		//TODO: Get User using DAO and check 		
-	
+		System.out.println("he  entrado a get usuarios");
 		for (int i = 0; i < this.lista.size(); i++) {
 			if (this.lista.get(i).getEmail().equals(email) && this.lista.get(i).checkcontrasena(password)) {		
+				System.out.println("he cogido al usuario");
 				return this.lista.get(i);
 			}
 		}
@@ -52,11 +53,13 @@ public class LoginAppService {
 	}
 	
 	public boolean login(String email, String password, String plataforma) {
+		System.out.println("entro y plataforma es" + plataforma);
 		for (int i = 0; i < this.lista.size(); i++) {
 			if (plataforma == "Mail" && this.lista.get(i).getEmail().equals(email) 
 					&& this.lista.get(i).checkcontrasena(password)) {		
 				return true;
-			} else if (plataforma == "Google" || plataforma == "Facebook") {
+			} else if (plataforma.equals("Google") || plataforma.equals("Facebook")) {
+				System.out.println("me he metido en el loginappservice de facebook");
 				LoginFactory lf = new LoginFactory();
 				lf.login(plataforma, email);
 			}

@@ -4,6 +4,7 @@ import java.rmi.RemoteException;
 
 public class LoginFactory {
 	public boolean login(String plataforma, String email) {
+		System.out.println("estoy en el factry");
 		switch(plataforma) {
 			case "Facebook":
 				FacebookLogin fb = new FacebookLogin();
