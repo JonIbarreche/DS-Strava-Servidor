@@ -42,9 +42,18 @@ public class ExternalLogin implements IExternalLogin{
 
 	@Override
 	public boolean googleLogin(String mail) throws RemoteException {
-		String name = "//" + serverIP + ":" + serverPort + "/" + "strava";
+		System.out.println("estoy en googlelogin");
+		GoogleService service = new GoogleService();
+		service.setService(serverIP, Integer.toString(serverPort), "google");
 		//LoginGoogleServer serviceStub = (LoginGoogleServer) java.rmi.Naming.lookup(name);
-		return false;
+		boolean login = service.getService().login(mail);
+		System.out.println("he getteado" + login);
+		if(login) {
+			return true;
+		} else {
+			return false;
+		}
+		
 	}
 
 }

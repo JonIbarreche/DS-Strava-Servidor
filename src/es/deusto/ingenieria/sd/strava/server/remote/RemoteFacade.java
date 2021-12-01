@@ -47,7 +47,8 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 				
 		//Perform login() using LoginAppService
 		Usuario user = loginService.getUsuario(email, password);
-		boolean existe = loginService.login(email, password, plataforma);	
+		boolean existe = loginService.login(email, password, plataforma);
+		System.out.println("MIRA ESTO" + existe);
 		//If login() success user is stored in the Server State
 		if (user != null && existe == true) {
 			//If user is not logged in 

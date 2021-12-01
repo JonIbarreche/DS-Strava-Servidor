@@ -16,6 +16,14 @@ public class LoginFactory {
 					e.printStackTrace();
 					
 				}
+			case "Google":
+				ExternalLogin g = new ExternalLogin("127.0.0.1", 1099);
+				try {
+					System.out.println("estoy en google");
+					return g.googleLogin(email);
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
 			default:
 				return false;
 		}

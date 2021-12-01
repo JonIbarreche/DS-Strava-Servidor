@@ -61,7 +61,8 @@ public class LoginAppService {
 			} else if (plataforma.equals("Google") || plataforma.equals("Facebook")) {
 				System.out.println("me he metido en el loginappservice de facebook");
 				LoginFactory lf = new LoginFactory();
-				lf.login(plataforma, email);
+				return lf.login(plataforma, email);
+				
 			}
 		}
 		return false;
