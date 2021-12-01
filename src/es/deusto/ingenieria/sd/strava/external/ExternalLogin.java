@@ -19,9 +19,9 @@ public class ExternalLogin implements IExternalLogin{
 	}
 	
 	@Override
-    public boolean facebookLogin(String mail) throws RemoteException{
+    public boolean facebookLogin(String mail, String comprueba) throws RemoteException{
 		System.out.println("Estoy en el facebook login");
-        String data = mail + DELIMITER;
+        String data = mail + DELIMITER + comprueba;
 
         try {
             Socket socket = new Socket(serverIP, serverPort);
@@ -41,12 +41,12 @@ public class ExternalLogin implements IExternalLogin{
     }
 
 	@Override
-	public boolean googleLogin(String mail) throws RemoteException {
+	public boolean googleLogin(String mail, String comprueba) throws RemoteException {
 		System.out.println("estoy en googlelogin");
 		GoogleService service = new GoogleService();
 		service.setService(serverIP, Integer.toString(serverPort), "google");
 		//LoginGoogleServer serviceStub = (LoginGoogleServer) java.rmi.Naming.lookup(name);
-		boolean login = service.getService().login(mail);
+		boolean login = service.getService().login(mail, comprueba);
 		System.out.println("he getteado" + login);
 		if(login) {
 			return true;
