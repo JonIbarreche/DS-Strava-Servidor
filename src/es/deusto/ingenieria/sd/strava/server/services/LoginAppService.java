@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import es.deusto.ingenieria.sd.strava.external.ExternalLogin;
 import es.deusto.ingenieria.sd.strava.external.LoginFactory;
 import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
+
 
 //TODO: Implement Singleton Pattern
 public class LoginAppService {
@@ -14,6 +17,7 @@ public class LoginAppService {
 	List<PasswordUsuario> listaMail = new ArrayList<>();
 	List<Usuario> listaGoogle = new ArrayList<>();
 	List<Usuario> listaFacebook = new ArrayList<>();
+	List<ExternalLogin> listaLogin = new ArrayList<>();
 	
 	public LoginAppService() {
 		this.InitializeData();
@@ -64,24 +68,37 @@ public class LoginAppService {
 		uF1.setRep(10);
 		
 		listaFacebook.add(uF1);
+		
+		LoginFactory lg = new LoginFactory();
+		Tipo tipo = Tipo.FACEBOOK;
+		listaLogin.add(lg.login(tipo));
+		tipo = Tipo.GOOGLE;
+		listaLogin.add(lg.login(tipo));
+		
+		for (int i = 0; i < listaLogin.size(); i++) {
+			if (listaLogin.get(i) != null) {
+				System.out.println("he metido un login " + i);
+			}
+		}
 	}
-	public Usuario getUsuario(String email, String password, String plataforma) {
+	public Usuario getUsuario(String email, String password, Tipo plataforma) {
 		//TODO: Get User using DAO and check 		
 		System.out.println("he  entrado a get usuarios");
-		if(plataforma.equals("Mail")) {
+		if(plataforma.equals(Tipo.MAIL)) {
 			for (int i = 0; i < this.listaMail.size(); i++) {
 				if (this.listaMail.get(i).getEmail().equals(email) && this.listaMail.get(i).checkcontrasena(password)) {		
 					System.out.println("he cogido al usuario");
 					return this.listaMail.get(i);
 				}
 			}
-		} else if(plataforma.equals("Google")) {
+		} else if(plataforma.equals(Tipo.GOOGLE)) {
 			for (int i = 0; i < this.listaGoogle.size(); i++) {
 				if (email.equals(this.listaGoogle.get(i).getEmail())) {
+					System.out.println("he gettteado al usuario");
 					return this.listaGoogle.get(i);
 				}
 			}
-		} else if(plataforma.equals("Facebook")) {
+		} else if(plataforma.equals(Tipo.FACEBOOK)) {
 			for (int i = 0; i < this.listaFacebook.size(); i++) {
 				if (email.equals(this.listaFacebook.get(i).getEmail())) {
 					return this.listaFacebook.get(i);
@@ -91,22 +108,17 @@ public class LoginAppService {
 		return null;
 	}
 	
-	public boolean login(String email, String password, String plataforma) {
-		System.out.println("entro y plataforma es" + plataforma);
-		for (int i = 0; i < this.listaMail.size(); i++) {
-			if (plataforma == "Mail" && this.listaMail.get(i).getEmail().equals(email) 
-					&& this.listaMail.get(i).checkcontrasena(password)) {		
-				return true;
-			} else if (plataforma.equals("Google")) {
-				System.out.println("me he metido en el loginappservice de facebook");
-				LoginFactory lf = new LoginFactory();
-				return lf.login(plataforma, email, this.listaGoogle);
-				
-			} else if (plataforma.equals("Facebook")) {
-				LoginFactory lf = new LoginFactory();
-				return lf.login(plataforma, email, this.listaFacebook);
+	public boolean login(String email, String comprueba, Tipo tipo) {
+		for (int i = 0; i < listaLogin.size(); i++) {
+			System.out.println(listaLogin.get(i).tipo);
+			if(listaLogin.get(i).tipo.equals(tipo)) {
+				System.out.println("he encontrado");
+				Boolean loginea = listaLogin.get(i).login(email, comprueba);
+				System.out.println(loginea);
+				return loginea;
 			}
 		}
+		
 		return false;
 	}
 	

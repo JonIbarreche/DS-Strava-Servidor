@@ -2,7 +2,7 @@ package es.deusto.ingenieria.sd.strava.server;
 
 import java.rmi.Naming;
 
-import es.deusto.ingenieria.sd.strava.external.ExternalLogin;
+import es.deusto.ingenieria.sd.strava.external.FacebookService;
 import es.deusto.ingenieria.sd.strava.server.remote.IRemoteFacade;
 import es.deusto.ingenieria.sd.strava.server.remote.RemoteFacade;
 

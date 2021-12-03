@@ -14,6 +14,7 @@ import java.util.Map;
 
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoAssembler;
@@ -42,16 +43,17 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 	
 	@Override
-	public synchronized long login(String email, String password, String plataforma) throws RemoteException {
+	public synchronized long login(String email, String password, Tipo plataforma) throws RemoteException {
 		System.out.println(" * RemoteFacade login(): " + email + " / " + password);
 				
 		//Perform login() using LoginAppService
 		Usuario user = loginService.getUsuario(email, password, plataforma);
 		boolean existe;
-		if (plataforma.equals("Mail")) {
+		if (plataforma.equals(Tipo.MAIL)) {
 			 existe = true;
 		} else {
-			existe = loginService.login(email, password, plataforma);
+			System.out.println("llamo a login de loginservice desde remote facade");
+			existe = loginService.login(email, user.getEmail(), plataforma);
 		}
 		System.out.println("MIRA ESTO" + existe);
 		//If login() success user is stored in the Server State
