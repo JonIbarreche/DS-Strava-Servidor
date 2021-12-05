@@ -12,7 +12,9 @@ public class GoogleService extends ExternalLogin{
 	private String serverIP;
 	private int serverPort;
 	
-	public GoogleService() {
+	public GoogleService (String servIP, int servPort) {
+		serverIP = servIP;
+		serverPort = servPort;
 		super.tipo = Tipo.GOOGLE;
 	}
 	
@@ -38,7 +40,7 @@ public class GoogleService extends ExternalLogin{
 	@Override
 	public boolean login(String mail, String comprueba) {
 		System.out.println("estoy en googlelogin");
-		GoogleService service = new GoogleService();
+		GoogleService service = new GoogleService(serverIP, serverPort);
 		service.setService(serverIP, Integer.toString(serverPort), "google");
 		//LoginGoogleServer serviceStub = (LoginGoogleServer) java.rmi.Naming.lookup(name);
 		boolean login;

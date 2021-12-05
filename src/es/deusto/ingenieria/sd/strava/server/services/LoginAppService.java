@@ -113,6 +113,7 @@ public class LoginAppService {
 			System.out.println(listaLogin.get(i).tipo);
 			if(listaLogin.get(i).tipo.equals(tipo)) {
 				System.out.println("he encontrado");
+				System.out.println("loginappservice"+email+comprueba);
 				Boolean loginea = listaLogin.get(i).login(email, comprueba);
 				System.out.println(loginea);
 				return loginea;

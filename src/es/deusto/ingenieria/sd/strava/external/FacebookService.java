@@ -25,22 +25,24 @@ public class FacebookService extends ExternalLogin{
 	@Override
     public boolean login(String mail, String comprueba){
 		System.out.println("Estoy en el facebook login");
+		System.out.println(comprueba + mail);
         String data = mail + DELIMITER + comprueba;
 
         try {
-            Socket socket = new Socket(serverIP, serverPort);
-            DataInputStream in = new DataInputStream(socket.getInputStream());
-            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-            System.out.println("he creado bien el socket");
-            out.writeUTF(data);
-            System.out.println(in.readUTF());
-            boolean valid = in.readUTF().equals("true");//if server says true, then it is valid
-            System.out.println(valid);
-            return valid;
+            try (Socket socket = new Socket(serverIP, serverPort)) {
+				DataInputStream in = new DataInputStream(socket.getInputStream());
+				DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+				System.out.println("a");
+				out.writeUTF(data);
+				System.out.println("b");
+				boolean valid = in.readUTF().equals("true");//if server says true, then it is valid
+				System.out.println("c");
+				return valid;
+			}
         } catch (IOException e){
             e.printStackTrace();
         }
-        System.out.println("no me he conectado");
+
         return false;
     }
 
