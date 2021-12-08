@@ -7,8 +7,8 @@ public class PasswordUsuario extends Usuario{
 
 	
 	public PasswordUsuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep,
-			String contrasena) {
-		super(email, nombre, fecha, peso, altura, max, rep);
+			String contrasen, Tipo tipo) {
+		super(email, nombre, fecha, peso, altura, max, rep, tipo);
 		this.contrasena = contrasena;
 	}
 

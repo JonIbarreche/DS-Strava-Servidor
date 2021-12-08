@@ -8,9 +8,10 @@ public class Usuario {
 	private int altura;
 	private int max;
 	private int rep;
+	private Tipo tipo;
 	
 	public Usuario(String email, String nombre, String fecha, int peso, int altura, int max,
-			int rep) {
+			int rep, Tipo tipo) {
 		super();
 		this.email = email;
 		this.nombre = nombre;
@@ -19,6 +20,7 @@ public class Usuario {
 		this.altura = altura;
 		this.max = max;
 		this.rep = rep;
+		this.tipo = tipo;
 	}
 	public Usuario() {
 		super();
@@ -29,10 +31,15 @@ public class Usuario {
 		this.altura = 0;
 		this.max = 0;
 		this.rep = 0;
+		this.tipo = Tipo.MAIL;
 	}
 	
-	
-	
+	public Tipo getTipo() {
+		return tipo;
+	}
+	public void setTipo(Tipo tipo) {
+		this.tipo = tipo;
+	}
 	public String getEmail() {
 		return email;
 	}

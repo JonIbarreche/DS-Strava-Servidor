@@ -48,6 +48,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 				
 		//Perform login() using LoginAppService
 		Usuario user = loginService.getUsuario(email, password, plataforma);
+		System.out.println(user.getEmail());
 		boolean existe;
 		if (plataforma.equals(Tipo.MAIL)) {
 			 existe = true;
@@ -138,8 +139,8 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	
 	@Override
 	public UsuarioDTO crearUsuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep,
-			String contrasena) {
-		PasswordUsuario userNorm = new PasswordUsuario(email, nombre, fecha, peso, altura, max, rep, contrasena);
+			String contrasena, Tipo tipo) {
+		PasswordUsuario userNorm = new PasswordUsuario(email, nombre, fecha, peso, altura, max, rep, contrasena, tipo);
 		loginService.addUsuario(userNorm);
 		return UsuarioAssembler.getInstance().userToDTO(userNorm);
 		

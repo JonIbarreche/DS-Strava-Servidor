@@ -14,9 +14,8 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 //TODO: Implement Singleton Pattern
 public class LoginAppService {
 	
-	List<PasswordUsuario> listaMail = new ArrayList<>();
-	List<Usuario> listaGoogle = new ArrayList<>();
-	List<Usuario> listaFacebook = new ArrayList<>();
+	List<Usuario> lista = new ArrayList<>();
+
 	List<ExternalLogin> listaLogin = new ArrayList<>();
 	
 	public LoginAppService() {
@@ -33,19 +32,21 @@ public class LoginAppService {
 		pU0.setMax(10);
 		pU0.setPeso(80);
 		pU0.setRep(10);
+		pU0.setTipo(Tipo.MAIL);
 		
 		PasswordUsuario pU1 = new PasswordUsuario();
-		pU0.setNombre("Eva");
-		pU0.setAltura(184);
-		pU0.setContrasena("abc123");
-		pU0.setEmail("eva@gmail.com");
-		pU0.setFecha("1 de agosto");
-		pU0.setMax(10);
-		pU0.setPeso(80);
-		pU0.setRep(10);
+		pU1.setNombre("Eva");
+		pU1.setAltura(184);
+		pU1.setContrasena("abc123");
+		pU1.setEmail("eva@gmail.com");
+		pU1.setFecha("1 de agosto");
+		pU1.setMax(10);
+		pU1.setPeso(80);
+		pU1.setRep(10);
+		pU1.setTipo(Tipo.MAIL);
 		
-		listaMail.add(pU0);
-		listaMail.add(pU1);
+		lista.add(pU0);
+		lista.add(pU1);
 		
 		Usuario uG1 = new Usuario();
 		uG1.setNombre("Eva");
@@ -55,8 +56,9 @@ public class LoginAppService {
 		uG1.setMax(10);
 		uG1.setPeso(80);
 		uG1.setRep(10);
+		uG1.setTipo(Tipo.GOOGLE);
 		
-		listaGoogle.add(uG1);
+		lista.add(uG1);
 		
 		Usuario uF1 = new Usuario();
 		uF1.setNombre("Eva");
@@ -66,8 +68,9 @@ public class LoginAppService {
 		uF1.setMax(10);
 		uF1.setPeso(80);
 		uF1.setRep(10);
+		uF1.setTipo(Tipo.FACEBOOK);
 		
-		listaFacebook.add(uF1);
+		lista.add(uF1);
 		
 		LoginFactory lg = new LoginFactory();
 		Tipo tipo = Tipo.FACEBOOK;
@@ -84,25 +87,10 @@ public class LoginAppService {
 	public Usuario getUsuario(String email, String password, Tipo plataforma) {
 		//TODO: Get User using DAO and check 		
 		System.out.println("he  entrado a get usuarios");
-		if(plataforma.equals(Tipo.MAIL)) {
-			for (int i = 0; i < this.listaMail.size(); i++) {
-				if (this.listaMail.get(i).getEmail().equals(email) && this.listaMail.get(i).checkcontrasena(password)) {		
-					System.out.println("he cogido al usuario");
-					return this.listaMail.get(i);
-				}
-			}
-		} else if(plataforma.equals(Tipo.GOOGLE)) {
-			for (int i = 0; i < this.listaGoogle.size(); i++) {
-				if (email.equals(this.listaGoogle.get(i).getEmail())) {
-					System.out.println("he gettteado al usuario");
-					return this.listaGoogle.get(i);
-				}
-			}
-		} else if(plataforma.equals(Tipo.FACEBOOK)) {
-			for (int i = 0; i < this.listaFacebook.size(); i++) {
-				if (email.equals(this.listaFacebook.get(i).getEmail())) {
-					return this.listaFacebook.get(i);
-				}
+		for (int i = 0; i < this.lista.size(); i++) {
+			
+			if (this.lista.get(i).getEmail().equals(email) && plataforma.equals(this.lista.get(i).getTipo())){	
+				return this.lista.get(i);
 			}
 		}
 		return null;
@@ -124,7 +112,7 @@ public class LoginAppService {
 	}
 	
 	public void addUsuario(PasswordUsuario u) {
-		this.listaMail.add(u);
+		this.lista.add(u);
 	}
 	
 }

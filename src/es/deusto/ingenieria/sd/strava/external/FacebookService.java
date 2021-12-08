@@ -25,7 +25,7 @@ public class FacebookService extends ExternalLogin{
 	@Override
     public boolean login(String mail, String comprueba){
 		System.out.println("Estoy en el facebook login");
-		System.out.println(comprueba + mail);
+
         String data = mail + DELIMITER + comprueba;
 
         try {
