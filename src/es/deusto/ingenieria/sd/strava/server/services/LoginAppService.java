@@ -75,6 +75,7 @@ public class LoginAppService {
 		LoginFactory lg = new LoginFactory();
 		Tipo tipo = Tipo.FACEBOOK;
 		listaLogin.add(lg.login(tipo));
+		
 		tipo = Tipo.GOOGLE;
 		listaLogin.add(lg.login(tipo));
 		
@@ -96,15 +97,17 @@ public class LoginAppService {
 		return null;
 	}
 	
-	public boolean login(String email, String comprueba, Tipo tipo) {
+	public boolean login(String email, Tipo tipo) {
+		
 		for (int i = 0; i < listaLogin.size(); i++) {
-			System.out.println(listaLogin.get(i).tipo);
 			if(listaLogin.get(i).tipo.equals(tipo)) {
-				System.out.println("he encontrado");
-				System.out.println("loginappservice"+email+comprueba);
-				Boolean loginea = listaLogin.get(i).login(email, comprueba);
-				System.out.println(loginea);
-				return loginea;
+				for (int j = 0; j < lista.size(); j++) {
+					Boolean loginea = listaLogin.get(i).login(email, lista.get(i).getEmail());
+					if(loginea) {
+						return loginea;
+					}
+				}
+					
 			}
 		}
 		

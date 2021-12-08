@@ -5,9 +5,9 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 
 public class LoginFactory {
 	public ExternalLogin login(Tipo tipo) {
-		boolean login;
 		switch(tipo) {
 			case FACEBOOK:
+				System.out.println("he creado facebook en el factory");
 				return new FacebookService("127.0.0.1", 1099);
 				
 			case GOOGLE:

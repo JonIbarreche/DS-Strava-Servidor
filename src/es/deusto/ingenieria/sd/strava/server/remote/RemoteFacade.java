@@ -46,27 +46,27 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	public synchronized long login(String email, String password, Tipo plataforma) throws RemoteException {
 		System.out.println(" * RemoteFacade login(): " + email + " / " + password);
 				
-		//Perform login() using LoginAppService
-		Usuario user = loginService.getUsuario(email, password, plataforma);
-		System.out.println(user.getEmail());
+		//Perform login() using LoginAppServic
 		boolean existe;
 		if (plataforma.equals(Tipo.MAIL)) {
 			 existe = true;
 		} else {
 			System.out.println("llamo a login de loginservice desde remote facade");
-			existe = loginService.login(email, user.getEmail(), plataforma);
+			existe = loginService.login(email, plataforma);
 		}
 		System.out.println("MIRA ESTO" + existe);
 		//If login() success user is stored in the Server State
-		if (user != null && existe == true) {
+		if (existe == true) {
 			//If user is not logged in 
-			if (!this.serverState.values().contains(user)) {
-				Long token = Calendar.getInstance().getTimeInMillis();		
+			Long token = Calendar.getInstance().getTimeInMillis();
+			return(token);
+			/*if (!this.serverState.values().contains(user)) {
+						
 				this.serverState.put(token, user);		
-				return(token);
+				
 			} else {
 				throw new RemoteException("User is already logged in!");
-			}
+			}*/
 		} else {
 			throw new RemoteException("Login fails!");
 		}
