@@ -71,7 +71,9 @@ public class LoginAppService {
 		uF1.setTipo(Tipo.FACEBOOK);
 		
 		lista.add(uF1);
-		
+		for (int i = 0; i < lista.size(); i++) {
+			System.out.println(lista.get(i).getEmail() + lista.get(i).getNombre());
+		}
 		LoginFactory lg = new LoginFactory();
 		Tipo tipo = Tipo.FACEBOOK;
 		listaLogin.add(lg.login(tipo));
@@ -85,29 +87,22 @@ public class LoginAppService {
 			}
 		}
 	}
-	public Usuario getUsuario(String email, String password, Tipo plataforma) {
-		//TODO: Get User using DAO and check 		
-		System.out.println("he  entrado a get usuarios");
-		for (int i = 0; i < this.lista.size(); i++) {
-			
-			if (this.lista.get(i).getEmail().equals(email) && plataforma.equals(this.lista.get(i).getTipo())){	
-				return this.lista.get(i);
-			}
-		}
-		return null;
-	}
+
 	
 	public boolean login(String email, Tipo tipo) {
 		
 		for (int i = 0; i < listaLogin.size(); i++) {
 			if(listaLogin.get(i).tipo.equals(tipo)) {
-				for (int j = 0; j < lista.size(); j++) {
-					Boolean loginea = listaLogin.get(i).login(email, lista.get(i).getEmail());
-					if(loginea) {
-						return loginea;
+				for (int j = 0; j < this.lista.size(); j++) {
+					if(this.lista.get(j).getEmail().equals(email) && this.lista.get(j).getTipo().equals(tipo)) {
+						System.out.println("entro login");
+						Boolean loginea = listaLogin.get(j).login(email, lista.get(j).getEmail());
+						if(loginea) {
+							System.out.println("holahola");
+							return loginea;
+						}	
 					}
 				}
-					
 			}
 		}
 		

@@ -36,9 +36,10 @@ public class FacebookService extends ExternalLogin{
 				System.out.println("a");
 				out.writeUTF(data);
 				System.out.println("b");
-				boolean valid = in.readUTF().equals("true");//if server says true, then it is valid
-				System.out.println("c");
-				return valid;
+				String result = in.readUTF();
+				System.out.println(result);
+				return Boolean.parseBoolean(result);//if server says true, then it is valid
+				
 			}
         } catch (IOException e){
             e.printStackTrace();
