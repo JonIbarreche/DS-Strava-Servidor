@@ -71,9 +71,6 @@ public class LoginAppService {
 		uF1.setTipo(Tipo.FACEBOOK);
 		
 		usuarios.add(uF1);
-		for (int i = 0; i < usuarios.size(); i++) {
-			System.out.println(usuarios.get(i).getEmail() + usuarios.get(i).getNombre());
-		}
 		
 		LoginFactory lg = new LoginFactory();
 		ExternalLogin gateway = null;
@@ -109,7 +106,6 @@ public class LoginAppService {
 			
 			for(Usuario user: this.usuarios) {
 				if (user.getEmail().equals(email) && user.getContrasena().equals(password) && user.getContrasena() != "") {
-					System.out.println(user.getContrasena());
 					//Recuperar la password del usuario y validar.
 					result = true;
 					//Se fuerza la salida del FOR.

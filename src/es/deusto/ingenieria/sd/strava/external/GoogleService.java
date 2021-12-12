@@ -39,14 +39,12 @@ public class GoogleService extends ExternalLogin{
 	
 	@Override
 	public boolean login(String mail, String comprueba) {
-		System.out.println("estoy en googlelogin");
 		GoogleService service = new GoogleService(serverIP, serverPort);
 		service.setService(serverIP, Integer.toString(serverPort), "google");
 		//LoginGoogleServer serviceStub = (LoginGoogleServer) java.rmi.Naming.lookup(name);
 		boolean login;
 		try {
 			login = service.getService().login(mail, comprueba);
-			System.out.println("he getteado" + login);
 			if(login) {
 				return true;
 			} else {
