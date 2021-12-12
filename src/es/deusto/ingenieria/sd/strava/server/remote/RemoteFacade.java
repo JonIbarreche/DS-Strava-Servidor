@@ -48,13 +48,9 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 				
 		//Perform login() using LoginAppServic
 		boolean existe;
-		if (plataforma.equals(Tipo.MAIL)) {
-			 existe = true;
-		} else {
-			System.out.println("llamo a login de loginservice desde remote facade");
-			existe = loginService.login(email, plataforma);
-		}
-		System.out.println("MIRA ESTO" + existe);
+		
+		System.out.println("llamo a login de loginservice desde remote facade");
+		existe = loginService.login(email, password, plataforma);
 		//If login() success user is stored in the Server State
 		if (existe == true) {
 			//If user is not logged in 

@@ -4,7 +4,7 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 
 
 public class LoginFactory {
-	public ExternalLogin login(Tipo tipo) {
+	public ExternalLogin crearLoginGateway(Tipo tipo) {
 		switch(tipo) {
 			case FACEBOOK:
 				System.out.println("he creado facebook en el factory");

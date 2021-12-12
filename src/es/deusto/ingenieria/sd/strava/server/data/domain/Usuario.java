@@ -97,6 +97,10 @@ public class Usuario {
 	public void setRep(int rep) {
 		this.rep = rep;
 	}
+	
+	public String getContrasena() {
+		return "";
+	}
 
 	@Override
 	public String toString() {

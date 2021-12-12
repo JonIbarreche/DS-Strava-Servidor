@@ -14,9 +14,9 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 //TODO: Implement Singleton Pattern
 public class LoginAppService {
 	
-	List<Usuario> lista = new ArrayList<>();
+	List<Usuario> usuarios = new ArrayList<>();
 
-	List<ExternalLogin> listaLogin = new ArrayList<>();
+	List<ExternalLogin> loginGateways = new ArrayList<>();
 	
 	public LoginAppService() {
 		this.InitializeData();
@@ -45,8 +45,8 @@ public class LoginAppService {
 		pU1.setRep(10);
 		pU1.setTipo(Tipo.MAIL);
 		
-		lista.add(pU0);
-		lista.add(pU1);
+		usuarios.add(pU0);
+		usuarios.add(pU1);
 		
 		Usuario uG1 = new Usuario();
 		uG1.setNombre("Eva");
@@ -58,7 +58,7 @@ public class LoginAppService {
 		uG1.setRep(10);
 		uG1.setTipo(Tipo.GOOGLE);
 		
-		lista.add(uG1);
+		usuarios.add(uG1);
 		
 		Usuario uF1 = new Usuario();
 		uF1.setNombre("Eva");
@@ -70,47 +70,59 @@ public class LoginAppService {
 		uF1.setRep(10);
 		uF1.setTipo(Tipo.FACEBOOK);
 		
-		lista.add(uF1);
-		for (int i = 0; i < lista.size(); i++) {
-			System.out.println(lista.get(i).getEmail() + lista.get(i).getNombre());
+		usuarios.add(uF1);
+		for (int i = 0; i < usuarios.size(); i++) {
+			System.out.println(usuarios.get(i).getEmail() + usuarios.get(i).getNombre());
 		}
+		
 		LoginFactory lg = new LoginFactory();
-		Tipo tipo = Tipo.FACEBOOK;
-		listaLogin.add(lg.login(tipo));
+		ExternalLogin gateway = null;
 		
-		tipo = Tipo.GOOGLE;
-		listaLogin.add(lg.login(tipo));
-		
-		for (int i = 0; i < listaLogin.size(); i++) {
-			if (listaLogin.get(i) != null) {
-				System.out.println("he metido un login " + i);
+		for (Tipo tipoLogin : Tipo.values()) {
+			gateway = lg.crearLoginGateway(tipoLogin);
+			if (gateway != null) {
+				this.loginGateways.add(gateway);
 			}
-		}
+		}	
 	}
 
 	
-	public boolean login(String email, Tipo tipo) {
+	public boolean login(String email, String password, Tipo tipo) {
+		boolean externalLogin = false;
+		boolean result = false;
 		
-		for (int i = 0; i < listaLogin.size(); i++) {
-			if(listaLogin.get(i).tipo.equals(tipo)) {
-				for (int j = 0; j < this.lista.size(); j++) {
-					if(this.lista.get(j).getEmail().equals(email) && this.lista.get(j).getTipo().equals(tipo)) {
-						System.out.println("entro login");
-						Boolean loginea = listaLogin.get(j).login(email, lista.get(j).getEmail());
-						if(loginea) {
-							System.out.println("holahola");
-							return loginea;
-						}	
+		for (ExternalLogin gateway : this.loginGateways) {
+			if (gateway.tipo.equals(tipo)) {
+				externalLogin = true;
+				for(Usuario user: this.usuarios) {
+					if (user.getEmail().equals(email) && user.getTipo().equals(tipo)) {
+						result = gateway.login(email, user.getEmail());					
 					}
 				}
 			}
 		}
 		
-		return false;
+		if (!externalLogin) {
+			//TODO: Tercera entrega: recuperar la info del usuario de la BBDD usando el DAO.
+			//Si existe el usuario, se compara la contraseña, si no existe, se devuelve false o
+			//una excepcion indicando que el usuario no existe.
+			
+			for(Usuario user: this.usuarios) {
+				if (user.getEmail().equals(email) && user.getContrasena().equals(password) && user.getContrasena() != "") {
+					System.out.println(user.getContrasena());
+					//Recuperar la password del usuario y validar.
+					result = true;
+					//Se fuerza la salida del FOR.
+					break;
+				}
+			}
+		}
+		
+		return result;
 	}
 	
 	public void addUsuario(PasswordUsuario u) {
-		this.lista.add(u);
+		this.usuarios.add(u);
 	}
 	
 }
