@@ -1,6 +1,10 @@
 package es.deusto.ingenieria.sd.strava.server.data.domain;
 
+import javax.jdo.annotations.*;
+
+@PersistenceCapable
 public class Sesion {
+	@PrimaryKey
 	private String titulo;
 	private float distancia;
 	private String fechaIni;

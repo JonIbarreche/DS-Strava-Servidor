@@ -1,6 +1,13 @@
 package es.deusto.ingenieria.sd.strava.server.data.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jdo.annotations.*;
+
+@PersistenceCapable
 public class Usuario {
+	@PrimaryKey
 	private String email;
 	private String nombre;
 	private String fecha;

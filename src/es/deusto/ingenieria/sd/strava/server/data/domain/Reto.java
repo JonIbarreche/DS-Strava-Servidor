@@ -1,6 +1,10 @@
 package es.deusto.ingenieria.sd.strava.server.data.domain;
 
+import javax.jdo.annotations.*;
+
+@PersistenceCapable
 public class Reto {
+	@PrimaryKey
 	private String nombreReto;
 	private String fechaIni;
 	private String fechaFin;
