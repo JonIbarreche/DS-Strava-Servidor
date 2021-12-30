@@ -16,6 +16,7 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
+import es.deusto.ingenieria.sd.strava.server.data.dao.UsuarioDAO;
 import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoAssembler;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoDTO;
@@ -45,6 +46,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	@Override
 	public synchronized long login(String email, String password, Tipo plataforma) throws RemoteException {
 		System.out.println(" * RemoteFacade login(): " + email + " / " + password);
+		
+		
+		UsuarioDAO dao = new UsuarioDAO();
+		Usuario u = new Usuario();
+		dao.guardarUsuario(u);
+		
+		
 		
 		boolean existe;
 		

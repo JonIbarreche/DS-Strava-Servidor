@@ -1,0 +1,359 @@
+12:50:08,283 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+12:50:08,384 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+12:50:08,387 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+12:50:08,391 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+12:50:08,439 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:33:43,177 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:33:43,298 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:33:43,304 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:33:43,308 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:33:43,309 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:33:47,209 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:33:47,319 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:33:47,323 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:33:47,326 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:33:47,326 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:33:47,569 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:33:47,569 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:33:47,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:33:47,569 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:33:47,570 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:33:47,930 (main) ERROR [DataNucleus.Datastore.Schema] - La inicialización del base de datos ha fallado.
+Access denied for user 'strava_user'@'localhost' (using password: YES)
+org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:513)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+Caused by: java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	... 12 more
+Nested Throwables StackTrace:
+java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+14:33:47,931 (main) ERROR [DataNucleus.Datastore] - Exception thrown creating StoreManager : Access denied for user 'strava_user'@'localhost' (using password: YES)
+14:33:47,931 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Access denied for user 'strava_user'@'localhost' (using password: YES)
+org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:513)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+Caused by: java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	... 12 more
+Nested Throwables StackTrace:
+java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+14:36:10,501 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:36:10,606 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:36:10,610 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:36:10,614 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:36:10,615 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:36:10,840 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:36:10,841 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:36:11,164 (main) ERROR [DataNucleus.Datastore.Schema] - La inicialización del base de datos ha fallado.
+Access denied for user 'strava_user'@'localhost' (using password: YES)
+org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:513)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+Caused by: java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	... 12 more
+Nested Throwables StackTrace:
+java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+14:36:11,165 (main) ERROR [DataNucleus.Datastore] - Exception thrown creating StoreManager : Access denied for user 'strava_user'@'localhost' (using password: YES)
+14:36:11,165 (main) ERROR [DataNucleus.SchemaTool] - Error creating NucleusContext
+Access denied for user 'strava_user'@'localhost' (using password: YES)
+org.datanucleus.exceptions.NucleusDataStoreException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:513)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+Caused by: java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	... 12 more
+Nested Throwables StackTrace:
+java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:123)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:353)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:899)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:429)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:354)
+	at org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource.getConnection(PoolingDataSource.java:132)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl.getConnection(ConnectionFactoryImpl.java:496)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:287)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:651)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:295)
+	at org.datanucleus.store.StoreManagerHelper.createStoreManagerForProperties(StoreManagerHelper.java:77)
+	at org.datanucleus.PersistenceNucleusContextImpl.initialise(PersistenceNucleusContextImpl.java:429)
+	at org.datanucleus.store.schema.SchemaTool.getNucleusContextForMode(SchemaTool.java:727)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:298)
+14:36:49,447 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:36:49,554 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:36:49,558 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:36:49,563 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:36:49,563 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:36:49,774 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:36:49,774 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:36:49,774 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:36:49,774 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:36:49,775 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:36:50,158 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\PasswordUsuario.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:36:50,276 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:36:50,277 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:36:50,408 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,408 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,408 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,408 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,454 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,454 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,454 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,454 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,499 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,499 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,500 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+14:36:50,505 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:37:06,894 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
