@@ -357,3 +357,147 @@ java.sql.SQLException: Access denied for user 'strava_user'@'localhost' (using p
 14:36:50,500 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
 14:36:50,505 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
 14:37:06,894 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:11:51,755 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+16:11:51,860 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+16:11:51,863 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+16:11:51,868 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+16:11:51,868 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16:11:57,125 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+16:11:57,225 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+16:11:57,229 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+16:11:57,232 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+16:11:57,233 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16:11:57,414 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16:11:57,414 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+16:11:57,415 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+16:11:57,803 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+16:11:57,943 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\PasswordUsuario.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+16:11:57,944 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+16:11:58,076 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16:12:03,475 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:03,640 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:03,728 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:03,811 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:20,479 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:20,633 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:20,718 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:20,801 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:12:41,730 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:13:07,942 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+16:13:08,042 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+16:13:08,045 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+16:13:08,049 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+16:13:08,049 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16:13:10,715 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:13:10,859 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:13:10,992 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:13:11,082 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:13:40,412 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:17:02,249 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:17:02,412 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:17:02,492 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:17:02,582 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:17:02,670 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:17:25,327 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:19:51,255 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+16:19:51,348 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+16:19:51,352 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+16:19:51,355 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+16:19:51,355 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16:19:54,260 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+16:19:54,367 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+16:19:54,371 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+16:19:54,375 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+16:19:54,376 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16:19:54,564 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+16:19:54,565 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+16:19:54,566 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+16:19:54,840 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\PasswordUsuario.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+16:19:54,955 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+16:19:54,956 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+16:19:54,956 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+16:19:54,956 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+16:19:54,956 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+16:19:55,082 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16:19:58,197 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:19:58,348 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:19:58,425 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:19:58,501 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:19:58,601 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:20:15,946 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:21:50,754 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:21:50,938 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:21:51,022 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:21:51,105 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:21:51,194 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers

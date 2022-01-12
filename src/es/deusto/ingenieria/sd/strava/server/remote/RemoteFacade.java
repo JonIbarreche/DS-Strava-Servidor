@@ -16,6 +16,8 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
+import es.deusto.ingenieria.sd.strava.server.data.dao.RetoDAO;
+import es.deusto.ingenieria.sd.strava.server.data.dao.SesionDAO;
 import es.deusto.ingenieria.sd.strava.server.data.dao.UsuarioDAO;
 import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoAssembler;
@@ -38,7 +40,11 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	private LoginAppService loginService = new LoginAppService();
 	private RetoService retoService = new RetoService();
 	private SesionService sesionService = new SesionService();
-
+	
+	private UsuarioDAO usuarioDAO = new UsuarioDAO();
+	private RetoDAO retoDAO = new RetoDAO();
+	private SesionDAO seisonDAO = new SesionDAO();
+	
 	public RemoteFacade() throws RemoteException {
 		super();		
 	}

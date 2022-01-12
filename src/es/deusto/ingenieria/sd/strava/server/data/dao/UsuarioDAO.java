@@ -3,6 +3,7 @@ package es.deusto.ingenieria.sd.strava.server.data.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.jdo.Extent;
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
@@ -93,11 +94,31 @@ public class UsuarioDAO extends IDataAccessObject{
 		pm.getFetchPlan().setMaxFetchDepth(3);
 
 		Transaction tx = pm.currentTransaction();
-		
-		List<Usuario> lista = new ArrayList<>();
-		
-		
-		return lista;
+		List<Usuario> usuarios = new ArrayList<Usuario>();
+
+		try {
+			System.out.println("   * Executing a Query for usuarios");
+
+			tx.begin();
+			Extent<Usuario> extent = pm.getExtent(Usuario.class, true);
+			Query<Usuario> query = pm.newQuery(extent);
+
+			for (Usuario usuario : (List<Usuario>) query.execute()) {
+				usuarios.add(usuario);
+			}
+
+			tx.commit();
+		} catch (Exception ex) {
+			System.out.println("   $ Error retreiving an extent: " + ex.getMessage());
+		} finally {
+			if (tx != null && tx.isActive()) {
+				tx.rollback();
+			}
+
+			pm.close();
+		}
+
+		return usuarios;
 	}
 	
 	@Override
@@ -112,7 +133,7 @@ public class UsuarioDAO extends IDataAccessObject{
 			System.out.println("   * Querying a Product: " + email);
 
 			tx.begin();
-			Query<?> query = pm.newQuery("SELECT FROM " + "Usuario" + " WHERE EMAIL == '" + email + "'");
+			Query<?> query = pm.newQuery("SELECT FROM " + "usuario" + " WHERE EMAIL == '" + email + "'");
 			query.setUnique(true);
 			usuario = (Usuario) query.execute();
 			tx.commit();
