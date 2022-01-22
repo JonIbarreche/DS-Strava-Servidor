@@ -29,7 +29,5 @@ public interface IRemoteFacade extends Remote {
 							String fechaIni, String horaIni, int duracion) throws RemoteException;
 	
 	public List<RetoDTO> getRetosActivos() throws RemoteException;
-		
-	public boolean aceptarReto (String nombreReto, float distancia)throws RemoteException;
 
 }

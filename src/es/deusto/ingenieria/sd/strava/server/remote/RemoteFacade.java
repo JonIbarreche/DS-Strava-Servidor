@@ -1,11 +1,9 @@
 package es.deusto.ingenieria.sd.strava.server.remote;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.Socket;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
@@ -16,10 +14,6 @@ import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
-import es.deusto.ingenieria.sd.strava.server.data.dao.RetoDAO;
-import es.deusto.ingenieria.sd.strava.server.data.dao.SesionDAO;
-import es.deusto.ingenieria.sd.strava.server.data.dao.UsuarioDAO;
-import es.deusto.ingenieria.sd.strava.server.data.domain.PasswordUsuario;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoAssembler;
 import es.deusto.ingenieria.sd.strava.server.data.dto.RetoDTO;
 import es.deusto.ingenieria.sd.strava.server.data.dto.SesionAssembler;
@@ -41,9 +35,6 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	private RetoService retoService = new RetoService();
 	private SesionService sesionService = new SesionService();
 	
-	private UsuarioDAO usuarioDAO = new UsuarioDAO();
-	private RetoDAO retoDAO = new RetoDAO();
-	private SesionDAO seisonDAO = new SesionDAO();
 	
 	public RemoteFacade() throws RemoteException {
 		super();		
@@ -52,13 +43,6 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	@Override
 	public synchronized long login(String email, String password, Tipo plataforma) throws RemoteException {
 		System.out.println(" * RemoteFacade login(): " + email + " / " + password);
-		
-		
-		UsuarioDAO dao = new UsuarioDAO();
-		Usuario u = new Usuario();
-		dao.guardarUsuario(u);
-		
-		
 		
 		boolean existe;
 		
@@ -140,7 +124,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	@Override
 	public UsuarioDTO crearUsuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep,
 			String contrasena, Tipo tipo) {
-		PasswordUsuario userNorm = new PasswordUsuario(email, nombre, fecha, peso, altura, max, rep, contrasena, tipo);
+		Usuario userNorm = new Usuario(email, nombre, fecha, peso, altura, max, rep, tipo, contrasena);
 		loginService.addUsuario(userNorm);
 		return UsuarioAssembler.getInstance().userToDTO(userNorm);
 		
@@ -157,8 +141,11 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	@Override
 	public List<RetoDTO> getRetosActivos() throws RemoteException {
 		System.out.println(" * RemoteFacade getRetos()");
-		//Get Retos using RetoService		
-		List<Reto> retos = retoService.getRetos();
+		//Get Retos using RetoService	
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/M/yyyy");
+		String date = sdf.format(new Date()); 
+		
+		List<Reto> retos = retoService.getRetosActivos(date);
 		
 		if (retos != null) {
 			//Convert domain object to DTO
@@ -170,123 +157,20 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 			}
 			return retodtolista;
 		} else {
+			throw new RemoteException("getRetosActivos() fails!");
+		}
+	}
+	
+	public boolean aceptarReto(Reto r) throws RemoteException {
+		
+		boolean cumplido = retoService.comprobarReto(r);
+		
+		if(cumplido) {
+			return cumplido;
+		} else {
 			throw new RemoteException("getSesiones() fails!");
 		}
-		//return null;
-	}
-
-	@Override
-	public boolean aceptarReto(String nombreReto, float distancia) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-	
-	/**
-	 * 
-	 * @return
-	 * @throws RemoteException
-	 
-	@Override
-	public List<CategoryDTO> getCategories() throws RemoteException {
-		System.out.println(" * RemoteFacade getCategories()");
 		
-		//Get Categories using BidAppService
-		List<Category> categories = bidService.getCategories();
-		
-		if (categories != null) {
-			//Convert domain object to DTO
-			return CategoryAssembler.getInstance().categoryToDTO(categories);
-		} else {
-			throw new RemoteException("getCategories() fails!");
-		}
 	}
-	 */
-	
-	/**
-	 * 
-	 * @param category
-	 * @return
-	 * @throws RemoteException
-	
-	@Override
-	public List<ArticleDTO> getArticles(String category) throws RemoteException {
-		System.out.println(" * RemoteFacade getArticle('" + category + "')");
-
-		//Get Articles using BidAppService
-		List<Article> articles = bidService.getArticles(category);
-		
-		if (articles != null) {
-			//Convert domain object to DTO
-			return ArticleAssembler.getInstance().articleToDTO(articles);
-		} else {
-			throw new RemoteException("getArticles() fails!");
-		}
-	}
-	 */
-	
-	/**
-	 * 
-	 * @param token
-	 * @param article
-	 * @param amount
-	 * @return
-	 * @throws RemoteException
-	
-	@Override
-	public boolean makeBid(long token, int article, float amount) throws RemoteException {		
-		System.out.println(" * RemoteFacade makeBid article : " + article + " / amount " + amount);
-		
-		if (this.serverState.containsKey(token)) {						
-			//Make the bid using Bid Application Service
-			if (bidService.makeBid(this.serverState.get(token), article, amount)) {
-				return true;
-			} else {
-				throw new RemoteException("makeBid() fails!");
-			}
-		} else {
-			throw new RemoteException("To place a bid you must first log in");
-		}
-	}
-	 */
-	
-	/**
-	 * 
-	 * @return
-	 * @throws RemoteException
-	 
-	@Override
-	public float getUSDRate() throws RemoteException {
-		System.out.println(" * RemoteFacade get USD rate");
-
-		//Get rate using BidAppService
-		float rate = bidService.getUSDRate();
-		
-		if (rate != -1) {
-			return rate;
-		} else {
-			throw new RemoteException("getUSDRate() fails!");
-		}
-	}
-	 */
-	
-	/**
-	 * 
-	 * @return
-	 * @throws RemoteException
-	 
-	@Override
-	public float getGBPRate() throws RemoteException {
-		System.out.println(" * RemoteFacade get GBP rate");
-		
-		//Get rate using BidAppService
-		float rate = bidService.getGBPRate();
-		
-		if (rate != -1) {
-			return rate;
-		} else {
-			throw new RemoteException("getGBPRate() fails!");
-		}
-	}
-	*/
 	
 }

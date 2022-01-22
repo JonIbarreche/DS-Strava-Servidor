@@ -1,8 +1,10 @@
 package es.deusto.ingenieria.sd.strava.server.data.dao;
 
-public abstract class IDataAccessObject {
-	public static IDataAccessObject instance;
-	public abstract void guardar(Object object);
-	public abstract void borrar(Object object);
-	public abstract Object encontrar(String string);
+import java.util.List;
+
+public interface IDataAccessObject <DomainObject>{
+	public void save(DomainObject object);
+	public void delete(DomainObject object);
+	public List<DomainObject> getAll();
+	public DomainObject find(String param);
 }

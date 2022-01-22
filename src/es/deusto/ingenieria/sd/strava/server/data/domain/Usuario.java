@@ -1,11 +1,9 @@
 package es.deusto.ingenieria.sd.strava.server.data.domain;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.PrimaryKey;
 
-import javax.jdo.annotations.*;
-
-@PersistenceCapable
+@PersistenceCapable(detachable="true")
 public class Usuario {
 	@PrimaryKey
 	private String email;
@@ -16,9 +14,11 @@ public class Usuario {
 	private int max;
 	private int rep;
 	private Tipo tipo;
+	private String contrasena;
 	
-	public Usuario(String email, String nombre, String fecha, int peso, int altura, int max,
-			int rep, Tipo tipo) {
+	
+	public Usuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep, Tipo tipo,
+			String contrasena) {
 		super();
 		this.email = email;
 		this.nombre = nombre;
@@ -28,7 +28,9 @@ public class Usuario {
 		this.max = max;
 		this.rep = rep;
 		this.tipo = tipo;
+		this.contrasena = contrasena;
 	}
+
 	public Usuario() {
 		super();
 		this.email = "";
@@ -39,8 +41,13 @@ public class Usuario {
 		this.max = 0;
 		this.rep = 0;
 		this.tipo = Tipo.MAIL;
+		this.contrasena = "";
 	}
 	
+	public void setContrasena(String contrasena) {
+		this.contrasena = contrasena;
+	}
+
 	public Tipo getTipo() {
 		return tipo;
 	}
@@ -106,7 +113,7 @@ public class Usuario {
 	}
 	
 	public String getContrasena() {
-		return "";
+		return contrasena;
 	}
 
 	@Override

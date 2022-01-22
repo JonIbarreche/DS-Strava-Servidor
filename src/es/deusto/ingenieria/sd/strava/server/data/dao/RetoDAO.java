@@ -10,134 +10,55 @@ import javax.jdo.PersistenceManagerFactory;
 import javax.jdo.Query;
 import javax.jdo.Transaction;
 
+
+import es.deusto.ingenieria.sd.strava.server.data.dao.DataAccessObjectBase;
+import es.deusto.ingenieria.sd.strava.server.data.dao.IDataAccessObject;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 
-public class RetoDAO extends IDataAccessObject{
-
-	private static RetoDAO instance;
-	private PersistenceManagerFactory pmf;
+public class RetoDAO extends DataAccessObjectBase implements IDataAccessObject<Reto>{
+	private static RetoDAO instance;	
 	
-	public RetoDAO() {
-		pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
-	}
-	
+	private RetoDAO() { }
 	
 	public static RetoDAO getInstance() {
 		if (instance == null) {
 			instance = new RetoDAO();
-		}
+		}		
+		
 		return instance;
 	}
 	
-	public void guardarReto(Reto reto) {
-		this.guardar(reto);
-	}
-	
 	@Override
-	public void guardar(Object object) {
+	public void save(Reto object) {
+		super.saveObject(object);
+	}
+
+	@Override
+	public void delete(Reto object) {
+		super.deleteObject(object);
+	}
+
+	@Override
+	public List<Reto> getAll() {				
 		PersistenceManager pm = pmf.getPersistenceManager();
+		pm.setDetachAllOnCommit(true);
 		Transaction tx = pm.currentTransaction();
 
-		try {
-			tx.begin();
-			System.out.println("   * Almacenando el siguiente objeto: " + object);
-			pm.makePersistent(object);
-			tx.commit();
-		} catch (Exception ex) {
-			System.out.println("   $ Error en el siguiente objeto: " + ex.getMessage());
-		} finally {
-			if (tx != null && tx.isActive()) {
-				tx.rollback();
-			}
-
-			pm.close();
-		}
-	}
-	
-	public void borrarReto(Reto reto) {
-		this.borrar(reto);
-	}
-	
-	@Override
-	public void borrar(Object object) {
-		PersistenceManager pm = pmf.getPersistenceManager();
-		pm.getFetchPlan().setMaxFetchDepth(3);
-
-		Transaction tx = pm.currentTransaction();
-		
+		List<Reto> retos = new ArrayList<>();
 		
 		try {
-			System.out.println("   * Querying a Product: " + ((Reto) object).getNombreReto());
-
 			tx.begin();
-			Query<?> query = pm.newQuery("DELETE FROM " + "Usuario" + " WHERE EMAIL == '" +  ((Reto) object).getNombreReto() + "'");
 			
-			tx.commit();
-
-		} catch (Exception ex) {
-			System.out.println("   $ Error retreiving an extent: " + ex.getMessage());
-		} finally {
-			if (tx != null && tx.isActive()) {
-				tx.rollback();
-			}
-
-			pm.close();
-		}
-		
-	}
-
-	@Override
-	public Object encontrar(String nombre) {
-		PersistenceManager pm = pmf.getPersistenceManager();
-		pm.getFetchPlan().setMaxFetchDepth(3);
-
-		Transaction tx = pm.currentTransaction();
-		Usuario usuario = null;
-
-		try {
-			System.out.println("   * Querying a Product: " + nombre);
-
-			tx.begin();
-			Query<?> query = pm.newQuery("SELECT FROM " + "reto" + " WHERE NOMBRERETO == '" + nombre + "'");
-			query.setUnique(true);
-			usuario = (Usuario) query.execute();
-			tx.commit();
-
-		} catch (Exception ex) {
-			System.out.println("   $ Error retreiving an extent: " + ex.getMessage());
-		} finally {
-			if (tx != null && tx.isActive()) {
-				tx.rollback();
-			}
-
-			pm.close();
-		}
-
-		return usuario;
-	}
-	
-	public List<Reto> listaRetos(){
-		PersistenceManager pm = pmf.getPersistenceManager();
-		pm.getFetchPlan().setMaxFetchDepth(3);
-
-		Transaction tx = pm.currentTransaction();
-		List<Reto> retos = new ArrayList<Reto>();
-
-		try {
-			System.out.println("   * Executing a Query for usuarios");
-
-			tx.begin();
 			Extent<Reto> extent = pm.getExtent(Reto.class, true);
-			Query<Reto> query = pm.newQuery(extent);
 
-			for (Reto reto : (List<Reto>) query.execute()) {
+			for (Reto reto : extent) {
 				retos.add(reto);
 			}
 
 			tx.commit();
 		} catch (Exception ex) {
-			System.out.println("   $ Error retreiving an extent: " + ex.getMessage());
+			System.out.println("  $ Error retrieving all the Categories: " + ex.getMessage());
 		} finally {
 			if (tx != null && tx.isActive()) {
 				tx.rollback();
@@ -146,6 +67,35 @@ public class RetoDAO extends IDataAccessObject{
 			pm.close();
 		}
 
-		return retos;
+		return retos;		
+	}
+
+	@Override
+	public Reto find(String param) {
+		PersistenceManager pm = pmf.getPersistenceManager();
+		pm.setDetachAllOnCommit(true);
+		Transaction tx = pm.currentTransaction();
+		
+		Reto result = null; 
+
+		try {
+			tx.begin();
+						
+			Query<?> query = pm.newQuery("SELECT FROM " + Reto.class.getName() + " WHERE nombrereto == '" + param + "'");
+			query.setUnique(true);
+			result = (Reto) query.execute();
+			
+			tx.commit();
+		} catch (Exception ex) {
+			System.out.println("  $ Error querying a Category: " + ex.getMessage());
+		} finally {
+			if (tx != null && tx.isActive()) {
+				tx.rollback();
+			}
+
+			pm.close();
+		}
+
+		return result;
 	}
 }
