@@ -1,19 +1,21 @@
 package es.deusto.ingenieria.sd.strava.server.data.domain;
 
+import java.util.Date;
+
 import javax.jdo.annotations.*;
 
 @PersistenceCapable(detachable="true")
 public class Reto {
 	@PrimaryKey
 	private String nombreReto;
-	private String fechaIni;
-	private String fechaFin;
+	private Date fechaIni;
+	private Date fechaFin;
 	private float distancia;
 	private int tiempo;
 	private String deporte;
 	
 	//Constructor
-	public Reto(String nombreReto, String fechaIni, String fechaFin, float distancia, int tiempo, String deporte) {
+	public Reto(String nombreReto, Date fechaIni, Date fechaFin, float distancia, int tiempo, String deporte) {
 		super();
 		this.nombreReto = nombreReto;
 		this.fechaIni = fechaIni;
@@ -26,8 +28,8 @@ public class Reto {
 	public Reto() {
 		super();
 		this.nombreReto = "";
-		this.fechaIni = "";
-		this.fechaFin = "";
+		this.fechaIni = null;
+		this.fechaFin = null;
 		this.distancia = 0;
 		this.tiempo = 0;
 		this.deporte = "";
@@ -39,16 +41,16 @@ public class Reto {
 	public void setNombreReto(String nombreReto) {
 		this.nombreReto = nombreReto;
 	}
-	public String getFechaIni() {
+	public Date getFechaIni() {
 		return fechaIni;
 	}
-	public void setFechaIni(String fechaIni) {
+	public void setFechaIni(Date fechaIni) {
 		this.fechaIni = fechaIni;
 	}
-	public String getFechaFin() {
+	public Date getFechaFin() {
 		return fechaFin;
 	}
-	public void setFechaFin(String fechaFin) {
+	public void setFechaFin(Date fechaFin) {
 		this.fechaFin = fechaFin;
 	}
 	public float getDistancia() {

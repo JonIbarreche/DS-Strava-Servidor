@@ -113,7 +113,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 
 	@Override
-	public RetoDTO crearReto(String nombreReto, String fechaIni, String fechaFin, float distancia, int tiempo,
+	public RetoDTO crearReto(String nombreReto, Date fechaIni, Date fechaFin, float distancia, int tiempo,
 			String deporte) throws RemoteException {
 			Reto retoNorm = new Reto(nombreReto, fechaIni, fechaFin, distancia, tiempo, deporte);
 			retoService.addReto(retoNorm);
@@ -161,6 +161,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		}
 	}
 	
+	@Override
 	public boolean aceptarReto(Reto r) throws RemoteException {
 		
 		boolean cumplido = retoService.comprobarReto(r);
