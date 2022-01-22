@@ -131,7 +131,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 	
 	@Override
-	public SesionDTO crearSesion(String titulo, float distancia, String fechaIni, String horaIni, int duracion) throws RemoteException {
+	public SesionDTO crearSesion(String titulo, float distancia, Date fechaIni, String horaIni, int duracion) throws RemoteException {
 		Sesion sesionNorm = new Sesion(titulo, distancia, fechaIni, horaIni, duracion);
 		sesionService.addSesion(sesionNorm);
 		return SesionAssembler.getInstance().sesionToDTO(sesionNorm);
@@ -139,13 +139,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 
 	@Override
-	public List<RetoDTO> getRetosActivos() throws RemoteException {
+	public List<RetoDTO> getRetosActivos(String u) throws RemoteException {
 		System.out.println(" * RemoteFacade getRetos()");
 		//Get Retos using RetoService	
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/M/yyyy");
 		String date = sdf.format(new Date()); 
 		
-		List<Reto> retos = retoService.getRetosActivos(date);
+		List<Reto> retos = retoService.getRetosActivos(u);
 		
 		if (retos != null) {
 			//Convert domain object to DTO
@@ -162,14 +162,13 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	}
 	
 	@Override
-	public boolean aceptarReto(Reto r) throws RemoteException {
+	public boolean aceptarReto(String r, String u) throws RemoteException {
 		
-		boolean cumplido = retoService.comprobarReto(r);
-		
-		if(cumplido) {
-			return cumplido;
+		if(retoService.aceptarReto(r, u)) {
+			return retoService.aceptarReto(r, u);
 		} else {
-			throw new RemoteException("getSesiones() fails!");
+
+			throw new RemoteException("aceptarReto() fails!");
 		}
 		
 	}

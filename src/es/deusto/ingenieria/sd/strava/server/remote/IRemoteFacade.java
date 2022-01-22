@@ -28,10 +28,10 @@ public interface IRemoteFacade extends Remote {
 			String contrasena,  Tipo tipo) throws RemoteException;
 	
 	public SesionDTO crearSesion	(String titulo, float distancia, 
-							String fechaIni, String horaIni, int duracion) throws RemoteException;
+							Date fechaIni, String horaIni, int duracion) throws RemoteException;
 	
-	public List<RetoDTO> getRetosActivos() throws RemoteException;
+	public List<RetoDTO> getRetosActivos(String u) throws RemoteException;
 	
-	public boolean aceptarReto(Reto r) throws RemoteException;
+	public boolean aceptarReto(String r, String u) throws RemoteException;
 
 }

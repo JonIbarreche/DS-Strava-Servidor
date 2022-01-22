@@ -1,6 +1,11 @@
 package es.deusto.ingenieria.sd.strava.server.data.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 @PersistenceCapable(detachable="true")
@@ -16,6 +21,13 @@ public class Usuario {
 	private Tipo tipo;
 	private String contrasena;
 	
+	@Join
+	//This annotation maps the 1-N relationship as an intermediate table.
+	@Persistent(mappedBy="usuario", dependentElement="true", defaultFetchGroup="true")
+	//"mappedBy" indicates the name of the attribute defining the relationship at the other end
+	//"dependentElement" indicates that the objects in the list are automatically deleted from 
+	//the DB when this object is deleted.
+	private List<Reto> retos = new ArrayList<>();
 	
 	public Usuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep, Tipo tipo,
 			String contrasena) {
@@ -78,7 +90,19 @@ public class Usuario {
 		this.fecha = fecha;
 	}
 
+	public List<Reto> getRetos() {
+		return retos;
+	}
 	
+	public void setRetos(List<Reto> retos) {
+		this.retos = retos;
+	}
+	
+	public void addReto(Reto reto) {
+		if (reto != null && !this.retos.contains(reto)) {
+			this.retos.add(reto);
+		}
+	}
 
 	public int getPeso() {
 		return peso;

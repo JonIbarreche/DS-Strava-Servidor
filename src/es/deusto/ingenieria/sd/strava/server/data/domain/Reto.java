@@ -13,7 +13,8 @@ public class Reto {
 	private float distancia;
 	private int tiempo;
 	private String deporte;
-	
+	@Persistent(defaultFetchGroup="true")
+	private Usuario usuario;
 	//Constructor
 	public Reto(String nombreReto, Date fechaIni, Date fechaFin, float distancia, int tiempo, String deporte) {
 		super();
@@ -71,7 +72,13 @@ public class Reto {
 	public void setDeporte(String deporte) {
 		this.deporte = deporte;
 	}
-	
+	public Usuario getUser() {
+		return usuario;
+	}
+
+	public void setUser(Usuario user) {
+		this.usuario = user;
+	}
 	//tostring
 	@Override
 	public String toString() {

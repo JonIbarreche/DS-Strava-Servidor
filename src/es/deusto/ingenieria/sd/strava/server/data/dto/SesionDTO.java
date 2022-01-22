@@ -1,6 +1,7 @@
 package es.deusto.ingenieria.sd.strava.server.data.dto;
 
 import java.io.Serializable;
+import java.util.Date;
 //This class implements DTO pattern
 public class SesionDTO implements Serializable {
 
@@ -8,7 +9,7 @@ public class SesionDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String titulo;
 	private float distancia;
-	private String fechaIni;
+	private Date fechaIni;
 	private String horaIni;
 	private int Duracion;
 	
@@ -25,10 +26,10 @@ public class SesionDTO implements Serializable {
 	public void setDistancia(float distancia) {
 		this.distancia = distancia;
 	}
-	public String getFechaIni() {
+	public Date getFechaIni() {
 		return fechaIni;
 	}
-	public void setFechaIni(String fechaIni) {
+	public void setFechaIni(Date fechaIni) {
 		this.fechaIni = fechaIni;
 	}
 	public String getHoraIni() {
