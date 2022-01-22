@@ -5138,3 +5138,346 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'contraseana' is unbou
 23:02:36,615 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
 23:02:36,850 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
 23:02:41,737 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:41:50,004 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:41:50,585 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:41:50,591 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:41:50,597 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:41:50,597 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:41:51,227 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:41:51,228 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:41:51,229 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:41:51,229 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:41:51,229 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:41:51,229 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:41:51,229 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:41:51,230 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:41:51,805 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:41:52,065 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:41:52,066 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:41:52,067 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:41:52,393 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:27:05,515 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:27:05,711 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:27:05,717 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:27:05,723 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:27:05,724 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:27:06,192 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:27:06,193 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:27:06,194 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:27:06,194 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:27:06,838 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:27:07,041 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:27:07,297 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:28:29,322 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:28:29,535 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:28:29,541 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:28:29,548 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:28:29,549 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:28:30,045 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:28:30,046 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:28:30,046 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:28:30,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:28:30,048 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:28:30,048 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:28:30,048 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:28:30,048 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:28:30,539 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:28:30,782 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:28:30,783 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:28:30,977 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:31:23,622 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:31:23,759 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:31:23,764 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:31:23,769 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:31:23,770 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:31:24,059 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:31:24,060 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:31:24,061 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:31:24,061 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:31:24,061 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:31:24,061 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:31:24,061 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:31:24,061 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:31:24,464 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:31:24,658 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:31:24,659 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:31:24,846 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:34:01,599 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:34:01,739 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:34:01,745 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:34:01,749 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:34:01,750 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:34:02,042 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:34:02,043 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:34:02,426 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:34:02,705 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:34:02,706 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:34:02,898 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:37:37,447 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:37:37,576 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:37:37,581 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:37:37,586 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:37:37,586 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:37:37,940 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:37:37,940 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:37:37,940 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:37:37,941 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:37:38,331 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:37:38,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:37:38,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:37:38,741 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:39:30,576 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:39:30,673 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:39:30,676 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:39:30,681 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:39:30,681 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:39:30,872 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:39:30,873 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:39:31,157 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:39:31,322 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:39:31,323 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:39:31,468 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito

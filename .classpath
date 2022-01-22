@@ -16,5 +16,6 @@
 	<classpathentry kind="lib" path="lib/datanucleus-rdbms-6.0.0-m2.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-8.0.26.jar"/>
+	<classpathentry kind="lib" path="lib/Facebook.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
