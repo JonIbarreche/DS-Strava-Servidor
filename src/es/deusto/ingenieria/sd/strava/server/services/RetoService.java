@@ -30,6 +30,7 @@ public class RetoService {
 	public boolean aceptarReto(String r, String u) {
 	
 		boolean anyadido = false;
+		
 		Reto reto = RetoDAO.getInstance().find(r);
 		if(reto == null) {
 			return anyadido;
@@ -80,8 +81,7 @@ public class RetoService {
 		return anyadido;
 	}
 	
-	public List<Reto> getRetosActivos(String u) {
-		
+	public List<Reto> getRetosActivos(String u) {	
 		System.out.println("estoy en getRetosActivos");
 		Usuario usuario = UsuarioDAO.getInstance().find(u);
 		System.out.println(usuario.toString());
