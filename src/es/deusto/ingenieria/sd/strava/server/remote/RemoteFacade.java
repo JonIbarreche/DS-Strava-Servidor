@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import es.deusto.ingenieria.sd.strava.server.data.dao.UsuarioDAO;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Sesion;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
@@ -48,8 +49,10 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		
 		System.out.println("llamo a login de loginservice desde remote facade");
 		existe = loginService.login(email, password, plataforma);
+		Usuario user = UsuarioDAO.getInstance().find(email+'#'+password);
 		if (existe == true) {
 			Long token = Calendar.getInstance().getTimeInMillis();
+			//this.serverState.put(key : token, value : user);
 			return(token);
 		} else {
 			throw new RemoteException("Login fails!");
@@ -116,6 +119,9 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	public RetoDTO crearReto(String nombreReto, Date fechaIni, Date fechaFin, float distancia, int tiempo,
 			String deporte) throws RemoteException {
 			Reto retoNorm = new Reto(nombreReto, fechaIni, fechaFin, distancia, tiempo, deporte);
+			
+			
+			
 			retoService.addReto(retoNorm);
 			return RetoAssembler.getInstance().retoToDTO(retoNorm);
 		
@@ -125,6 +131,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	public UsuarioDTO crearUsuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep,
 			String contrasena, Tipo tipo) {
 		Usuario userNorm = new Usuario(email, nombre, fecha, peso, altura, max, rep, tipo, contrasena);
+		userNorm.setRetos(new ArrayList());
 		loginService.addUsuario(userNorm);
 		return UsuarioAssembler.getInstance().userToDTO(userNorm);
 		
@@ -167,10 +174,36 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 		if(retoService.aceptarReto(r, u)) {
 			return retoService.aceptarReto(r, u);
 		} else {
-
 			throw new RemoteException("aceptarReto() fails!");
 		}
 		
 	}
+	@Override
+	public List<SesionDTO> getSesionesUsuario(String usuario) throws RemoteException {
+		System.out.println(" * RemoteFacade getSesiones()");
+		
+		//Get Sesiones using SesionService		
+		List<Sesion> sesiones = sesionService.getSesionesUsuario(usuario);
+		
+		
+			if (sesiones != null) {
+				//Convert domain object to DTO
+				List<SesionDTO> sesiondtolista =  new ArrayList<>();
+				SesionDTO meter;
+				for (int i = 0; i < sesiones.size(); i++) {
+					meter = SesionAssembler.getInstance().sesionToDTO(sesiones.get(i));
+					sesiondtolista.add(meter);
+				}
+				return sesiondtolista;
+			} else {
+				throw new RemoteException("getSesiones() fails!");
+			}
+			
+			//return null;
+	}
 	
+	@Override
+	public void aceptarSesion(String usuario, String sesion) throws RemoteException {
+		sesionService.aceptarSesion(usuario, sesion);
+	}
 }

@@ -3,6 +3,9 @@ package es.deusto.ingenieria.sd.strava.server.data.domain;
 import java.util.Date;
 
 import javax.jdo.annotations.*;
+import java.util.ArrayList;
+import java.util.List;
+
 
 @PersistenceCapable(detachable="true")
 public class Sesion {
@@ -12,6 +15,9 @@ public class Sesion {
 	private Date fechaIni;
 	private String horaIni;
 	private int Duracion;
+	@Join
+	@Persistent(mappedBy="sesiones", dependentElement="true", defaultFetchGroup="true")
+	private List<Usuario> usuarios = new ArrayList<>();
 	
 	public Sesion(String titulo, float distancia, Date fechaIni, String horaIni, int duracion) {
 		super();
@@ -71,7 +77,21 @@ public class Sesion {
 	public void setDuracion(int duracion) {
 		Duracion = duracion;
 	}
-
+	
+	public List<Usuario> getUsuario() {
+		return usuarios;
+	}
+	
+	public void setUsuario(List<Usuario> usuarios) {
+		this.usuarios = usuarios;
+	}
+	
+	public void addUsuarios(Usuario usuario) {
+		if (usuario != null && !this.usuarios.contains(usuario)) {
+			this.usuarios.add(usuario);
+		}
+	}
+	
 	@Override
 	public String toString() {
 		return "Sesion [titulo=" + titulo + ", distancia=" + distancia + ", fechaIni=" + fechaIni + ", horaIni="

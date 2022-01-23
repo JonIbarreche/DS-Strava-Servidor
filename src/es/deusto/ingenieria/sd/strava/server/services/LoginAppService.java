@@ -6,6 +6,7 @@ import java.util.List;
 import es.deusto.ingenieria.sd.strava.external.ExternalLogin;
 import es.deusto.ingenieria.sd.strava.external.LoginFactory;
 import es.deusto.ingenieria.sd.strava.server.data.dao.UsuarioDAO;
+import es.deusto.ingenieria.sd.strava.server.data.domain.Reto;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Tipo;
 import es.deusto.ingenieria.sd.strava.server.data.domain.Usuario;
 
@@ -74,7 +75,6 @@ public class LoginAppService {
 	}
 	
 	public void addUsuario(Usuario u) {
-		System.out.println(u.getContrasena());
 		UsuarioDAO.getInstance().save(u);
 		
 	}

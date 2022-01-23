@@ -8461,3 +8461,1172 @@ org.datanucleus.exceptions.NucleusUserException: Variable 'nombrereto' is unboun
 12:27:12,915 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
 12:27:13,250 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
 12:27:19,052 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:41:40,348 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+12:41:40,501 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+12:41:40,506 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+12:41:40,511 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+12:41:40,511 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+12:41:40,951 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+12:41:40,951 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+12:41:40,951 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+12:41:40,951 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+12:41:40,951 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+12:41:40,951 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+12:41:40,952 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+12:41:41,397 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:41:41,680 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+12:41:41,680 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+12:41:41,680 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+12:41:41,681 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+12:41:41,682 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+12:41:41,682 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+12:41:41,682 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+12:41:41,956 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+12:41:47,069 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:45:29,814 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+12:45:30,009 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+12:45:30,019 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+12:45:30,033 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+12:45:30,035 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+12:45:30,549 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+12:45:30,551 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+12:45:30,552 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+12:45:30,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+12:45:30,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+12:45:30,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+12:45:30,553 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+12:45:31,296 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:45:31,588 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+12:45:31,588 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+12:45:31,589 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+12:45:31,590 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+12:45:31,591 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+12:45:31,591 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+12:45:31,591 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+12:45:31,591 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+12:45:31,591 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+12:45:31,591 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+12:45:32,169 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+12:45:38,973 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:49:40,175 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+12:49:40,446 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+12:49:40,451 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+12:49:40,460 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+12:49:40,460 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+12:49:41,045 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+12:49:41,046 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+12:49:41,046 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+12:49:41,046 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+12:49:41,046 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+12:49:41,047 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+12:49:41,813 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:49:42,093 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+12:49:42,094 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+12:49:42,095 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+12:49:42,096 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+12:49:42,097 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+12:49:42,097 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+12:49:42,637 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+12:51:08,886 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+12:51:09,162 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+12:51:09,171 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+12:51:09,180 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+12:51:09,181 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+12:51:09,755 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+12:51:09,757 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+12:51:09,758 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+12:51:10,432 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+12:51:10,716 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+12:51:10,716 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+12:51:10,716 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+12:51:10,716 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+12:51:10,716 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+12:51:10,716 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+12:51:10,717 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+12:51:10,718 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+12:51:10,719 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+12:51:10,719 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+12:51:11,117 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+12:51:18,442 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:17:04,072 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:17:04,197 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:17:04,201 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:17:04,205 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:17:04,205 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:17:04,449 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:17:04,449 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:17:04,449 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:17:04,449 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:17:04,449 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:17:04,449 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:17:04,450 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:17:04,750 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:17:04,948 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:17:04,949 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:17:05,159 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:17:10,637 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:17:45,613 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:17:45,743 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:17:45,747 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:17:45,752 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:17:45,753 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:17:46,009 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:17:46,009 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:17:46,009 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:17:46,009 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:17:46,010 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:17:46,324 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:17:46,510 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:17:46,701 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:17:52,185 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:17:58,855 (RMI TCP Connection(2)-192.168.56.1) INFO  [DataNucleus.Persistence] - El objeto "es.deusto.ingenieria.sd.strava.server.data.domain.Usuario@44a7ee6c" tiene una colleccion "es.deusto.ingenieria.sd.strava.server.data.domain.Usuario.retos" pero el elemento "es.deusto.ingenieria.sd.strava.server.data.domain.Reto@74843998" no tiene el dueño puesto. Manejando la relación y poniendo el dueño.
+13:28:52,360 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:28:52,471 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:28:52,475 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:28:52,480 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:28:52,481 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:28:57,385 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:28:57,498 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:28:57,502 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:28:57,506 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:28:57,507 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:28:57,714 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:28:57,714 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:28:57,715 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:28:57,989 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:28:58,139 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:28:58,139 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:28:58,139 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:28:58,140 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:28:58,228 (main) ERROR [DataNucleus.Datastore.Schema] - Una excepcion estaba tirada durante la addicion/validacion de algunas class(es) : La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+org.datanucleus.exceptions.NucleusException: La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:677)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+Caused by: org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	... 10 more
+Nested Throwables StackTrace:
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+13:28:58,229 (main) ERROR [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha lanzado una excepción. Por favor consulte el Log para ver más detalles: La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+org.datanucleus.exceptions.NucleusException: La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:677)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+Caused by: org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	... 10 more
+Nested Throwables StackTrace:
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+13:30:08,735 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:30:08,844 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:30:08,848 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:30:08,852 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:30:08,852 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:30:09,068 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:30:09,069 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:30:09,069 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:30:09,069 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:30:09,349 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:30:09,459 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:30:09,459 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:30:09,459 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:30:09,459 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:30:09,459 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:30:09,459 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:30:09,460 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:30:09,549 (main) ERROR [DataNucleus.Datastore.Schema] - Una excepcion estaba tirada durante la addicion/validacion de algunas class(es) : La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+org.datanucleus.exceptions.NucleusException: La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:677)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+Caused by: org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	... 10 more
+Nested Throwables StackTrace:
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+13:30:09,550 (main) ERROR [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha lanzado una excepción. Por favor consulte el Log para ver más detalles: La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+org.datanucleus.exceptions.NucleusException: La generación del nuevo tipo de Mapping org.datanucleus.store.rdbms.mapping.java.CollectionMapping ha fallada : Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:677)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+Caused by: org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	... 10 more
+Nested Throwables StackTrace:
+Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+org.datanucleus.exceptions.NucleusUserException: Clase "es.deusto.ingenieria.sd.strava.server.data.domain.Reto" campo "usuarios" : tiene "mapped-by" de "reto". Este campo no existe en el otro lado de la relación ("es.deusto.ingenieria.sd.strava.server.data.domain.Usuario")!!
+	at org.datanucleus.metadata.AbstractMemberMetaData.setRelation(AbstractMemberMetaData.java:2738)
+	at org.datanucleus.metadata.AbstractMemberMetaData.getRelatedMemberMetaData(AbstractMemberMetaData.java:3000)
+	at org.datanucleus.store.rdbms.identifier.DNIdentifierFactory.newTableIdentifier(DNIdentifierFactory.java:133)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.addJoinTableForContainer(RDBMSStoreManager.java:3817)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newJoinTable(RDBMSStoreManager.java:2966)
+	at org.datanucleus.store.rdbms.mapping.java.AbstractContainerMapping.initialize(AbstractContainerMapping.java:84)
+	at org.datanucleus.store.rdbms.mapping.MappingManagerImpl.getMapping(MappingManagerImpl.java:667)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageMembers(ClassTable.java:632)
+	at org.datanucleus.store.rdbms.table.ClassTable.manageClass(ClassTable.java:538)
+	at org.datanucleus.store.rdbms.table.ClassTable.initializeForClass(ClassTable.java:1364)
+	at org.datanucleus.store.rdbms.table.ClassTable.initialize(ClassTable.java:270)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.initializeClassTables(RDBMSStoreManager.java:3467)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager$ClassAdder.run(RDBMSStoreManager.java:3087)
+	at org.datanucleus.store.rdbms.AbstractSchemaTransaction.execute(AbstractSchemaTransaction.java:118)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.createSchemaForClasses(RDBMSStoreManager.java:3940)
+	at org.datanucleus.store.schema.SchemaTool.createSchemaForClasses(SchemaTool.java:508)
+	at org.datanucleus.store.schema.SchemaTool.main(SchemaTool.java:424)
+13:30:45,471 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:30:45,578 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:30:45,582 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:30:45,586 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:30:45,586 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:30:45,801 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:30:45,802 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:30:46,078 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:30:46,198 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:30:46,199 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:30:46,360 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+13:30:46,360 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+13:30:46,402 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+13:30:46,402 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+13:30:46,457 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+13:30:46,457 (main) WARN  [DataNucleus.Datastore] - SQL Warning : 'BINARY as attribute of a type' is deprecated and will be removed in a future release. Please use a CHARACTER SET clause with _bin collation instead
+13:30:47,472 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:31:37,029 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:31:37,142 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:31:37,145 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:31:37,150 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:31:37,151 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:31:37,354 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:31:37,653 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:31:37,770 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:31:37,771 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:31:37,771 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:31:37,771 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:31:37,771 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:31:38,009 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:31:43,513 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:32:51,126 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:32:51,231 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:32:51,235 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:32:51,240 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:32:51,240 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:32:51,480 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:32:51,481 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:32:51,755 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:32:51,918 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:32:51,919 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:32:52,148 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:32:54,756 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:34:25,998 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+13:34:26,114 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+13:34:26,118 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+13:34:26,122 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+13:34:26,123 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+13:34:26,319 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+13:34:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+13:34:26,595 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+13:34:26,741 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+13:34:26,742 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+13:34:26,743 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+13:34:26,743 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+13:34:26,957 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+13:34:30,245 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:07:25,545 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:07:25,663 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:07:25,668 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:07:25,674 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:07:25,674 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:07:25,869 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:07:25,869 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:07:25,869 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:07:25,869 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:07:25,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:07:26,163 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:07:26,320 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:07:26,321 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:07:26,321 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:07:26,537 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:10:54,129 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+14:10:54,242 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+14:10:54,247 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+14:10:54,251 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+14:10:54,252 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+14:10:54,438 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+14:10:54,438 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+14:10:54,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+14:10:54,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+14:10:54,438 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+14:10:54,439 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+14:10:54,728 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+14:10:54,870 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+14:10:54,871 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+14:10:54,871 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+14:10:54,871 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+14:10:54,871 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+14:10:54,871 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+14:10:55,113 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+14:10:58,221 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:18:47,968 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 6.0.0.m2) para el API "JDO" utilisando el JRE "{2}"
+16:18:48,076 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class" con definicion enhanced
+16:18:48,080 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class" con definicion enhanced
+16:18:48,085 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class" con definicion enhanced
+16:18:48,085 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 3 clases.
+16:18:48,281 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+16:18:48,281 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+16:18:48,281 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\Facebook.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\commons-codec-1.15.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-api-jdo-6.0.0-m2.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-cache-6.0.0-m2.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-core-6.0.0-m2.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\datanucleus-rdbms-6.0.0-m2.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\google.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\javax.jdo-3.2.0-release.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\log4j-1.2.14.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\lib\mysql-connector-java-8.0.26.jar
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin
+16:18:48,282 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\resources
+16:18:48,579 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:18:48,740 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+16:18:48,740 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\ExternalLogin.class
+16:18:48,740 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\FacebookService.class
+16:18:48,740 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\GoogleService.class
+16:18:48,740 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory$1.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\external\LoginFactory.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\MainProgram.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\DataAccessObjectBase.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\IDataAccessObject.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\RetoDAO.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\SesionDAO.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dao\UsuarioDAO.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Reto.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Sesion.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Tipo.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\domain\Usuario.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoAssembler.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\RetoDTO.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionAssembler.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\SesionDTO.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioAssembler.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\data\dto\UsuarioDTO.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\IRemoteFacade.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\remote\RemoteFacade.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\LoginAppService.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\RetoService.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\services\SesionService.class
+16:18:48,741 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\evaho\git\DS-Strava-Servidor\bin\es\deusto\ingenieria\sd\strava\server\test\LocalTest.class
+16:18:48,990 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+16:19:02,072 (RMI TCP Connection(2)-192.168.56.1) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers

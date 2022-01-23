@@ -3,6 +3,9 @@ package es.deusto.ingenieria.sd.strava.server.data.domain;
 import java.util.Date;
 
 import javax.jdo.annotations.*;
+import java.util.ArrayList;
+import java.util.List;
+
 
 @PersistenceCapable(detachable="true")
 public class Reto {
@@ -13,8 +16,9 @@ public class Reto {
 	private float distancia;
 	private int tiempo;
 	private String deporte;
-	@Persistent(defaultFetchGroup="true")
-	private Usuario usuario;
+	@Join
+	@Persistent(mappedBy="retos", dependentElement="true", defaultFetchGroup="true")
+	private List<Usuario> usuarios = new ArrayList<>();
 	//Constructor
 	public Reto(String nombreReto, Date fechaIni, Date fechaFin, float distancia, int tiempo, String deporte) {
 		super();
@@ -72,12 +76,18 @@ public class Reto {
 	public void setDeporte(String deporte) {
 		this.deporte = deporte;
 	}
-	public Usuario getUser() {
-		return usuario;
+	public List<Usuario> getUsuario() {
+		return usuarios;
 	}
-
-	public void setUser(Usuario user) {
-		this.usuario = user;
+	
+	public void setUsuario(List<Usuario> usuarios) {
+		this.usuarios = usuarios;
+	}
+	
+	public void addUsuarios(Usuario usuario) {
+		if (usuario != null && !this.usuarios.contains(usuario)) {
+			this.usuarios.add(usuario);
+		}
 	}
 	//tostring
 	@Override

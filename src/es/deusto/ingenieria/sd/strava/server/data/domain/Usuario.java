@@ -23,11 +23,19 @@ public class Usuario {
 	
 	@Join
 	//This annotation maps the 1-N relationship as an intermediate table.
-	@Persistent(mappedBy="usuario", dependentElement="true", defaultFetchGroup="true")
+	@Persistent(mappedBy="usuarios", dependentElement="true", defaultFetchGroup="true")
 	//"mappedBy" indicates the name of the attribute defining the relationship at the other end
 	//"dependentElement" indicates that the objects in the list are automatically deleted from 
 	//the DB when this object is deleted.
 	private List<Reto> retos = new ArrayList<>();
+	
+	@Join
+	//This annotation maps the 1-N relationship as an intermediate table.
+	@Persistent(mappedBy="usuarios", dependentElement="true", defaultFetchGroup="true")
+	//"mappedBy" indicates the name of the attribute defining the relationship at the other end
+	//"dependentElement" indicates that the objects in the list are automatically deleted from 
+	//the DB when this object is deleted.
+	private List<Sesion> sesiones = new ArrayList<>();
 	
 	public Usuario(String email, String nombre, String fecha, int peso, int altura, int max, int rep, Tipo tipo,
 			String contrasena) {
@@ -91,10 +99,6 @@ public class Usuario {
 	}
 
 	public List<Reto> getRetos() {
-		for (int i = 0; i < this.retos.size(); i++) {
-			System.out.println("retos:");
-			System.out.println(this.retos.get(i).toString());
-		}
 		return retos;
 	}
 	
@@ -105,7 +109,20 @@ public class Usuario {
 	public void addReto(Reto reto) {
 		if (reto != null && !this.retos.contains(reto)) {
 			this.retos.add(reto);
-			System.out.println(this.retos.size());
+		}
+	}
+	
+	public List<Sesion> getSesiones() {
+		return sesiones;
+	}
+	
+	public void setSesiones(List<Sesion> sesiones) {
+		this.sesiones = sesiones;
+	}
+	
+	public void addSesion(Sesion sesion) {
+		if (sesion != null && !this.sesiones.contains(sesion)) {
+			this.sesiones.add(sesion);
 		}
 	}
 

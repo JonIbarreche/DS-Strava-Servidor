@@ -28,18 +28,13 @@ public class RetoService {
 	}
 	
 	public boolean aceptarReto(String r, String u) {
-		
-		System.out.println("estoy en aceptar Reto");
+	
 		boolean anyadido = false;
-		System.out.println("he creado el booleano voy a findear el reto");
 		Reto reto = RetoDAO.getInstance().find(r);
-		System.out.println("he findeado el reto "+reto.toString());
 		if(reto == null) {
-			System.out.println("no existe el reto");
 			return anyadido;
 		}
 		
-		System.out.println("voy a coger las sesiones");
 		List<Sesion> sesiones = SesionDAO.getInstance().getAll();
 		List<Sesion> sesionesMirar = new ArrayList<Sesion>();
 		//cogemos las sesiones que encajen con la fecha
@@ -47,16 +42,16 @@ public class RetoService {
 			if (sesiones.get(i).getFechaIni().before(reto.getFechaFin())
 					&& sesiones.get(i).getFechaIni().after(reto.getFechaIni())) {
 				sesionesMirar.add(sesiones.get(i));
-				System.out.println("Sesion escogida: " + sesiones.get(i));
 			}
 		}
 		if (sesionesMirar.isEmpty()) {
 			Usuario usuario = UsuarioDAO.getInstance().find(u);
 			if(usuario != null) {
 					usuario.addReto(reto);
-					reto.setUser(usuario);
+					UsuarioDAO.getInstance().save(usuario);
+					return true;
 			}
-			return true;
+
 		}
 		
 		//sumamos los datos de esas sesiones
@@ -66,10 +61,6 @@ public class RetoService {
 			distancia += sesionesMirar.get(i).getDistancia();
 			duracion += sesionesMirar.get(i).getDuracion();
 		}
-		
-		System.out.println("distancia"+distancia);
-		System.out.println("duracion"+duracion);
-		
 		//comprobamos que no se ha cumplido ya el reto
 
 		if (reto.getTiempo() > duracion) {
@@ -78,18 +69,19 @@ public class RetoService {
 		
 		if (reto.getDistancia() > distancia) {
 			anyadido = true;
-			System.out.println(anyadido);
 		}
 		
 		Usuario usuario = UsuarioDAO.getInstance().find(u);
 		if(usuario != null) {
 				usuario.addReto(reto);
-				reto.setUser(usuario);
+				UsuarioDAO.getInstance().save(usuario);
+				return anyadido;
 		}
 		return anyadido;
 	}
 	
 	public List<Reto> getRetosActivos(String u) {
+		
 		System.out.println("estoy en getRetosActivos");
 		Usuario usuario = UsuarioDAO.getInstance().find(u);
 		System.out.println(usuario.toString());
@@ -98,10 +90,7 @@ public class RetoService {
 			List<Reto> retos = usuario.getRetos();
 			System.out.println("he cogido los retos del usuario");
 			System.out.println("tamaño retos "+ retos.size());
-			for (int i = 0; i < retos.size(); i++) {
-				System.out.println("retos:");
-				System.out.println(retos.get(i).toString());
-			}
+			
 			return retos;
 		} else {
 			return null;

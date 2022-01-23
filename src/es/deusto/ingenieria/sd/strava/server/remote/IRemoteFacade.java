@@ -34,4 +34,7 @@ public interface IRemoteFacade extends Remote {
 	
 	public boolean aceptarReto(String r, String u) throws RemoteException;
 
+	public List<SesionDTO> getSesionesUsuario(String usuario) throws RemoteException;
+	
+	public void aceptarSesion(String usuario, String sesion) throws RemoteException;
 }
