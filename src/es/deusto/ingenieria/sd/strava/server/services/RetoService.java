@@ -28,21 +28,18 @@ public class RetoService {
 	}
 	
 	public boolean aceptarReto(String r, String u) {
-		boolean anyadido = false;
-		List<Reto> retos = RetoDAO.getInstance().getAll();
-		Reto reto = null;
-		for (int i = 0; i < retos.size(); i++) {
-			if (retos.get(i).getNombreReto().equals(r)) {
-				reto = retos.get(i);
-				break;
-			}
-		}
 		
+		System.out.println("estoy en aceptar Reto");
+		boolean anyadido = false;
+		System.out.println("he creado el booleano voy a findear el reto");
+		Reto reto = RetoDAO.getInstance().find(r);
+		System.out.println("he findeado el reto "+reto.toString());
 		if(reto == null) {
 			System.out.println("no existe el reto");
 			return anyadido;
 		}
 		
+		System.out.println("voy a coger las sesiones");
 		List<Sesion> sesiones = SesionDAO.getInstance().getAll();
 		List<Sesion> sesionesMirar = new ArrayList<Sesion>();
 		//cogemos las sesiones que encajen con la fecha
@@ -50,10 +47,16 @@ public class RetoService {
 			if (sesiones.get(i).getFechaIni().before(reto.getFechaFin())
 					&& sesiones.get(i).getFechaIni().after(reto.getFechaIni())) {
 				sesionesMirar.add(sesiones.get(i));
+				System.out.println("Sesion escogida: " + sesiones.get(i));
 			}
 		}
 		if (sesionesMirar.isEmpty()) {
-			return anyadido;
+			Usuario usuario = UsuarioDAO.getInstance().find(u);
+			if(usuario != null) {
+					usuario.addReto(reto);
+					reto.setUser(usuario);
+			}
+			return true;
 		}
 		
 		//sumamos los datos de esas sesiones
@@ -64,37 +67,42 @@ public class RetoService {
 			duracion += sesionesMirar.get(i).getDuracion();
 		}
 		
+		System.out.println("distancia"+distancia);
+		System.out.println("duracion"+duracion);
+		
 		//comprobamos que no se ha cumplido ya el reto
-		if (reto.getTiempo() < duracion) {
+
+		if (reto.getTiempo() > duracion) {
 			anyadido = true;
 		}
 		
-		if (reto.getDistancia() < distancia) {
+		if (reto.getDistancia() > distancia) {
 			anyadido = true;
+			System.out.println(anyadido);
 		}
 		
-		//cogemos el usuario
-		List<Usuario> usuarioLista = UsuarioDAO.getInstance().getAll();
-		Usuario usuario = null;
-		for (int i = 0; i < usuarioLista.size(); i++) {
-			if(usuarioLista.get(i).getEmail().equals(u)) {
-				usuario = usuarioLista.get(i);
+		Usuario usuario = UsuarioDAO.getInstance().find(u);
+		if(usuario != null) {
 				usuario.addReto(reto);
-			}
+				reto.setUser(usuario);
 		}
 		return anyadido;
 	}
 	
 	public List<Reto> getRetosActivos(String u) {
-		List<Usuario> usuarioLista = UsuarioDAO.getInstance().getAll();
-		Usuario usuario = null;
-		for (int i = 0; i < usuarioLista.size(); i++) {
-			if(usuarioLista.get(i).getEmail().equals(u)) {
-				usuario = usuarioLista.get(i);
-			}
-		}
+		System.out.println("estoy en getRetosActivos");
+		Usuario usuario = UsuarioDAO.getInstance().find(u);
+		System.out.println(usuario.toString());
 		if(usuario!=null) {
-			return usuario.getRetos();
+			System.out.println("el usuario existe es " + usuario.toString());
+			List<Reto> retos = usuario.getRetos();
+			System.out.println("he cogido los retos del usuario");
+			System.out.println("tamaño retos "+ retos.size());
+			for (int i = 0; i < retos.size(); i++) {
+				System.out.println("retos:");
+				System.out.println(retos.get(i).toString());
+			}
+			return retos;
 		} else {
 			return null;
 		}

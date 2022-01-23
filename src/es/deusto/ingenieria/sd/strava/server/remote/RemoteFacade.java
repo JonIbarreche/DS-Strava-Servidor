@@ -163,7 +163,7 @@ public class RemoteFacade extends UnicastRemoteObject implements IRemoteFacade {
 	
 	@Override
 	public boolean aceptarReto(String r, String u) throws RemoteException {
-		
+		System.out.println("remotefacade aceptarReto()");
 		if(retoService.aceptarReto(r, u)) {
 			return retoService.aceptarReto(r, u);
 		} else {

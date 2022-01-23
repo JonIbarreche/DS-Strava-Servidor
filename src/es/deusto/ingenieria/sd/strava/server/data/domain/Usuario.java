@@ -91,6 +91,10 @@ public class Usuario {
 	}
 
 	public List<Reto> getRetos() {
+		for (int i = 0; i < this.retos.size(); i++) {
+			System.out.println("retos:");
+			System.out.println(this.retos.get(i).toString());
+		}
 		return retos;
 	}
 	
@@ -101,6 +105,7 @@ public class Usuario {
 	public void addReto(Reto reto) {
 		if (reto != null && !this.retos.contains(reto)) {
 			this.retos.add(reto);
+			System.out.println(this.retos.size());
 		}
 	}
 

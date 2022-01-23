@@ -81,7 +81,7 @@ public class RetoDAO extends DataAccessObjectBase implements IDataAccessObject<R
 		try {
 			tx.begin();
 						
-			Query<?> query = pm.newQuery("SELECT FROM " + Reto.class.getName() + " WHERE nombrereto == '" + param + "'");
+			Query<?> query = pm.newQuery("SELECT FROM " + Reto.class.getName() + " WHERE nombreReto == '" + param + "'");
 			query.setUnique(true);
 			result = (Reto) query.execute();
 			
